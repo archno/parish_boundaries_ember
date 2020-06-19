@@ -1,0 +1,25 @@
+#background.hasFooterText
+  #headerBackground
+    #navBackground
+    header#header
+      #siteLogo.moduleContainer.logoOnly
+        .moduleInner
+          #siteLogoBody
+            a href="https://nolacatholic.org/"
+              img.sitelogo alt="Archdiocese of New Orleans" src="images/logo-1.jpg"
+      nav#nav
+        ul
+          li#nav249.navPage.navElement
+            a href="https://nolacatholic.org"
+              span NOLA Catholic
+  #core
+
+    =outlet
+
+  #footerBackground.footerNavOff.footerTextOn
+    footer#footer
+      #footerText.moduleContainer.footerText1.footerText
+        .moduleInner
+          #footerTextBody.footerTextBody1.footerTextBody
+            .center
+              img alt="" src="images/footer_logo.jpg" /
