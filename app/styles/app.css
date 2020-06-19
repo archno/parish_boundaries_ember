@@ -129,6 +129,30 @@ body,#background{width:100%;}
   margin-top: 30px;
 }
 .ember-google-map {
+  margin-top: 15px;
   width: 100%;
   height: 500px;
+}
+
+input.large{
+  height: 35px !important;
+  font-size: 30px !important;
+}
+button.large{
+  height: 43px;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+button.link{
+  border: 0px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #356AA0;
+  margin-left: -6px;
+}
+.checkbox{
+  width: 20px;
+  height: 20px;
+  margin-left: 35px;
 }

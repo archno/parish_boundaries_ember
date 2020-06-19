@@ -5,6 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'parish-boundaries-ember',
     environment,
     rootURL: '/',
+    host: 'http://localhost:3000',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
@@ -53,6 +54,7 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
+    ENV.host = process.env.HOST;
   }
 
   return ENV;

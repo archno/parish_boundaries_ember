@@ -1,4 +1,27 @@
+h1 Find your Parish
 
+input.large placeholder="Enter an address"
+button.large
+  span Search
 
-b test
-=g-map lat="29.987571" lng="-90.210292" zoom=12
+=input class="checkbox" type="checkbox" id="parishes" name="parishes" checked=isParishesChecked change=(action "parishesSelected")
+label for="parishes" Parishes
+
+=input class="checkbox" type="checkbox" id="offices" name="offices" checked=isOfficesChecked change=(action "officesSelected")
+label for="offices" Offices
+
+=input class="checkbox" type="checkbox" id="schools" name="schools" checked=isSchoolsChecked change=(action "schoolsSelected")
+label for="schools" Schools
+
+br
+br
+
+button.link{action "toggle"}
+  span Toggle
+  +
+  if boundaries
+    span Deaneries
+  else
+    span Parish Boundaries
+
+=g-map lat="29.987571" lng="-90.210292" zoom=12 onLoad=(action "onLoad")
