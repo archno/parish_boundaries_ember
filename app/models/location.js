@@ -1,17 +1,27 @@
-import DS from 'ember-data';
-const { Model } = DS;
+import Model, { attr } from '@ember-data/model';
 
-export default Model.extend({
+export default class LocationModel extends Model {
 
-  type: DS.attr('string'),
-  name: DS.attr('string'),
-  address: DS.attr('string'),
-  address_2: DS.attr('string'),
-  city: DS.attr('string'),
-  state: DS.attr('string'),
-  zip: DS.attr('number'),
-  lat: DS.attr('string'),
-  lng: DS.attr('string'),
-  createdAt: DS.attr('date'),
-  updatedAt: DS.attr('date'),
-});
+  @attr type;
+  @attr name;
+  @attr address;
+  @attr address_2;
+  @attr city;
+  @attr state;
+  @attr('number') zip;
+  @attr lat;
+  @attr lng;
+  @attr('boolean') flag; //when type is school and flag is true then is a high school
+  @attr color;
+  @attr('date') createdAt;
+  @attr('date') updatedAt;
+
+  get mapPinLetter(){
+    return this.type.charAt(0)
+  }
+
+  get icon(){
+    return `https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=${this.mapPinLetter}|${this.color}|000000`
+  }
+
+}

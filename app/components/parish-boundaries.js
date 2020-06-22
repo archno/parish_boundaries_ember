@@ -12,18 +12,29 @@ export default class ParishBoundariesComponent extends Component {
   @service store
 
   map = null
-
-  locations = []
   type = "parish"
+  geocoder = null
+  deaneriesKml = null
+  parishBoundariesKml = null
+  address = null
+  markerTooltipOpen = null
+
+  @tracked currentPosition = null
+  @tracked errorMessage = null
+
+  @tracked startLat = 29.987571
+  @tracked startLng = -90.210292
+
+  @tracked locations = []
   @tracked boundaries = true
 
   @tracked isParishesChecked = true
   @tracked isSchoolsChecked = false
   @tracked isOfficesChecked = false
 
-  @filterBy('locations', 'type', 'parish') parishes
-  @filterBy('locations', 'type', 'school') schools
-  @filterBy('locations', 'type', 'office') offices
+  @filterBy('locations', 'type', 'Parish') parishes
+  @filterBy('locations', 'type', 'School') schools
+  @filterBy('locations', 'type', 'Office') offices
 
   get activeLocations(){
     assign([], this.isParishesChecked ? this.parishes : [], this.isSchoolsChecked ? this.schools : [], this.isOfficesChecked ? this.offices : [])
@@ -32,45 +43,54 @@ export default class ParishBoundariesComponent extends Component {
   constructor(owner, args) {
     super(owner, args)
     this.fetchLocations.perform()
+    if (navigator.geolocation) {
+      const gno = new CircularGeofenceRegion({
+        name: 'gno',
+        latitude: 30.977609,
+        longitude: -91.823730,
+        radius: 299338 // meters ~ 186 miles from an arbitraty center point in LA
+      })
+      navigator.geolocation.getCurrentPosition((position) => {
+        // const lat = position.coords.latitude
+        // const lon = position.coords.longitude
+        const lat = 30.557176
+        const lng = -90.171661
+        if (gno.inside(lat, lng)) {
+          console.log('inside')
+          this.startLat = lat
+          this.startLng = lng
+        }
+      }, (error) => {
+        
+      })
+    }
   }
 
   @(task(function * () {
     const locations = yield this.store.query('location', { type: this.type})
-    this.locations.push(locations.toArray())
+    this.locations = this.locations.concat(locations.toArray())
   }).restartable()) fetchLocations;
-
-  get deaneries(){
-    return new window.google.maps.KmlLayer( { url: ENV.DEANERIES_KML_URL, preserveViewport: true } )
-  }
-
-  get parishBoundaries(){
-    return new window.google.maps.KmlLayer( { url: ENV.PARISH_BOUNDARIES_KML_URL, preserveViewport: true } )
-  }
-
-  loadKml(){
-    if (this.boundaries){
-      this.deaneries.setMap(null)
-      this.parishBoundaries.setMap(this.map.map)
-    } else {
-      this.parishBoundaries.setMap(null)
-      this.deaneries.setMap(this.map.map)
-    }
-  }
 
   @action
   toggle(){
     if (this.boundaries){
-        this.boundaries = false
+      this.boundaries = false
+      this.parishBoundariesKml.setMap(null)
+      this.deaneriesKml.setMap(this.map.map)
     } else {
-        this.boundaries = true
+      this.boundaries = true
+      this.deaneriesKml.setMap(null)
+      this.parishBoundariesKml.setMap(this.map.map)
     }
-    this.loadKml()
   }
 
   @action
   onLoad(map){
     this.map = map
-    this.loadKml()
+    this.geocoder = new google.maps.Geocoder();
+    this.deaneriesKml = new window.google.maps.KmlLayer( { url: ENV.DEANERIES_KML_URL, preserveViewport: true } )
+    this.parishBoundariesKml = new window.google.maps.KmlLayer( { url: ENV.PARISH_BOUNDARIES_KML_URL, preserveViewport: true } )
+    this.parishBoundariesKml.setMap(map.map)
   }
 
   @action
@@ -112,4 +132,41 @@ export default class ParishBoundariesComponent extends Component {
     }
   }
 
+  @action
+  geoCodeAddress(){
+    if (!this.address)
+      return
+    this.errorMessage = null
+    const address = `${this.address}, Louisiana`
+    const _this = this
+    this.geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == 'OK') {
+        const position = results[0].geometry.location
+        _this.map.map.setCenter(position)
+        _this.map.map.setZoom(14)
+        // 1200 ridgelake
+        _this.currentPosition = position
+      } else {
+        _this.errorMessage = status
+      }
+    })
+  }
+
+}
+
+// https://stackoverflow.com/questions/50453003/html5-geolocation-api-with-geofencing
+class CircularGeofenceRegion {
+  constructor(opts) {
+    Object.assign(this, opts)
+  }
+
+  inside(lat2, lon2) {
+    const lat1 = this.latitude
+    const lon1 = this.longitude
+        const R = 63710; // Earth's radius in m
+
+    return Math.acos(Math.sin(lat1)*Math.sin(lat2) +
+                     Math.cos(lat1)*Math.cos(lat2) *
+                     Math.cos(lon2-lon1)) * R < this.radius;
+  }
 }

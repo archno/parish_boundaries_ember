@@ -1,8 +1,11 @@
 h1 Find your Parish
 
-input.large placeholder="Enter an address"
-button.large
-  span Search
+=input class="large" placeholder="Enter an address or place" autocomplete=true change=(action (mut address) value="target.value") enter=(action "geoCodeAddress")
+button.large{action "geoCodeAddress" } Search
+
+br
+=errorMessage
+br
 
 =input class="checkbox" type="checkbox" id="parishes" name="parishes" checked=isParishesChecked change=(action "parishesSelected")
 label for="parishes" Parishes
@@ -24,4 +27,31 @@ button.link{action "toggle"}
   else
     span Parish Boundaries
 
-=g-map lat="29.987571" lng="-90.210292" zoom=12 onLoad=(action "onLoad")
+=g-map lat=startLat lng=startLng zoom=12 onLoad=(action "onLoad") as |g|
+
+  if currentPosition
+    =g.marker position=currentPosition
+
+  if isParishesChecked
+    =each parishes as |location|
+      =g.marker lat=location.lat lng=location.lng icon=location.icon onClick=(action (mut markerTooltipOpen) location) as |m|
+        =m.infoWindow isOpen=(eq markerTooltipOpen.id location.id) as |i|
+          div class="text-center"
+            h2
+              a href="https://nolacatholic.org/search?query=#{location.name}" target="_blank" #{location.name}
+
+  if isOfficesChecked
+    =each offices as |location|
+      =g.marker lat=location.lat lng=location.lng icon=location.icon onClick=(action (mut markerTooltipOpen) location) as |m|
+        =m.infoWindow isOpen=(eq markerTooltipOpen.id location.id) as |i|
+          div class="text-center"
+            h2
+              a href="https://nolacatholic.org/search?query=#{location.name}" target="_blank" #{location.name}
+
+  if isSchoolsChecked
+    =each schools as |location|
+      =g.marker lat=location.lat lng=location.lng icon=location.icon onClick=(action (mut markerTooltipOpen) location) as |m|
+        =m.infoWindow isOpen=(eq markerTooltipOpen.id location.id) as |i|
+          div class="text-center"
+            h2
+              a href="https://nolacatholic.org/search?query=#{location.name}" target="_blank" #{location.name}
