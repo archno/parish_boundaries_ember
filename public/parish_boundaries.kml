@@ -1,0 +1,2451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Parish Boundaries</name>
+	<open>1</open>
+	<description>Archdiocese of New Orleans Parish boundaries</description>
+	<Style id="style2">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>a66666ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style28">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0066ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style71">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d33ff33</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style88">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0099ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style76">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>73999933</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style64">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffff66</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style78">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style85">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffff33</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style38">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d66ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style48">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7399ff66</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style4">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d990033</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style10">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dcc33cc</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style94">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d33ff33</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style63">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ccff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style70">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d999933</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style73">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style95">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style57">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d993399</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style90">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff3333</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style35">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style8">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00cc33</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style3">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff3333</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style21">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style32">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d66ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style86">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d006600</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style91">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8cffff99</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style24">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style81">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4000ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style13">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8ccc0066</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style40">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d990000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style93">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dcc33cc</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style15">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d33ff33</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style27">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d006600</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style102">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style59">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d336699</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style74">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0066ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style61">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d006600</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style18">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d33ccff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style26">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>73ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style75">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffff33</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style23">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style52">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>73336699</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style7">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff6633</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style31">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>73ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style14">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000066</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style72">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style82">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>730099ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style92">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d6699ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style60">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d006600</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style29">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style54">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffff66</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style83">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d003300</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style20">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>73000099</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style22">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d33ccff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style79">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dcc33cc</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style96">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d66ccff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style77">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style99">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d009900</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style1">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff99ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style98">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d000099</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style33">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d6666ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style68">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d990033</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style5">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7366ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style49">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d66ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style43">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d006600</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style84">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0066ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style17">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style44">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>730000cc</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style65">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style34">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d99ff99</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style56">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>73ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style58">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0099ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style11">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00cc33</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style89">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dcccc66</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style6">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style37">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>73999933</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style25">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>730066cc</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style101">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d003300</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style19">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>730066ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style46">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d003300</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style16">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>73ffcc33</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style87">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d66ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style12">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>730066ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style69">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style42">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>73cc6666</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style41">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffff33</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style30">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffff33</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style103">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>73ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>4d000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d4fff1f</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style53">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffff33</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style62">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d990000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style66">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>73ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style51">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d006600</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style97">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff0000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style67">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>730000cc</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style9">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>73ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style39">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffff33</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style100">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>73003399</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style47">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000cc</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style36">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>4d000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c5456ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style55">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style50">
+		<LineStyle>
+			<color>40000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d990000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>4d000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c5456ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>4d000000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d4fff1f</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>St. Anthony of Padua Parish</name>
+		<styleUrl>#style37</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.09424600000001,29.957911,0 -90.10755199999998,29.968172,0 -90.10948200000001,29.97044,0 -90.116264,29.988729,0 -90.115707,29.994749,0 -90.101631,29.993263,0 -90.10287500000001,29.984158,0 -90.08309200000001,29.970737,0 -90.09424600000001,29.957911,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Joseph Parish</name>
+		<styleUrl>#style56</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.076668,29.9471,0 -90.081261,29.948549,0 -90.08519,29.951941,0 -90.09375,29.95804,0 -90.084389,29.96876,0 -90.072487,29.960735,0 -90.071411,29.961702,0 -90.06986199999999,29.960548,0 -90.07338,29.9561,0 -90.07482100000001,29.95443,0 -90.075829,29.9506,0 -90.076668,29.9471,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Pius X Parish</name>
+		<styleUrl>#style25</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.097267,30.028709,0 -90.096817,30.026699,0 -90.098106,30.028826,0 -90.10076100000001,30.028379,0 -90.103165,30.027489,0 -90.10797100000001,30.027786,0 -90.11338000000001,30.02704,0 -90.11338000000001,30.020201,0 -90.091858,30.018471,0 -90.085442,30.020571,0 -90.08261099999999,30.020981,0 -90.07053399999999,30.021521,0 -90.072159,30.02693,0 -90.07383000000002,30.028021,0 -90.07341,30.02895,0 -90.074783,30.03244,0 -90.079201,30.032261,0 -90.082848,30.02791,0 -90.09114800000002,30.03101,0 -90.097267,30.028709,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Holy Name of Jesus Parish</name>
+		<styleUrl>#style16</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.113167,29.92503,0 -90.11987299999998,29.926741,0 -90.12278000000001,29.927788,0 -90.12573999999999,29.929312,0 -90.131592,29.932619,0 -90.116562,29.951839,0 -90.113167,29.943439,0 -90.10968800000001,29.94128,0 -90.11329699999999,29.92845,0 -90.112701,29.92819,0 -90.113167,29.92503,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Holy Family Parish</name>
+		<styleUrl>#style21</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.03710900000002,31.001493,0 -90.028267,30.675303,0 -90.25728599999999,30.706984,0 -90.25754499999999,30.707945,0 -90.256767,30.707796,0 -90.25771299999998,30.709679,0 -90.257454,30.711596,0 -90.25625599999999,30.711855,0 -90.25604199999999,30.711374,0 -90.25548599999999,30.712297,0 -90.257164,30.714706,0 -90.25656100000002,30.715298,0 -90.257164,30.71633,0 -90.255875,30.717142,0 -90.255875,30.718395,0 -90.256477,30.719355,0 -90.255875,30.720242,0 -90.25492900000002,30.720757,0 -90.25427999999999,30.721004,0 -90.25411200000001,30.721964,0 -90.25514200000001,30.721483,0 -90.254921,30.722221,0 -90.25552400000001,30.723034,0 -90.255394,30.723551,0 -90.254921,30.723438,0 -90.254456,30.724508,0 -90.25505099999999,30.724436,0 -90.25569900000001,30.7251,0 -90.25509599999999,30.726206,0 -90.25535600000001,30.726723,0 -90.255737,30.726465,0 -90.25625599999999,30.726833,0 -90.25501300000001,30.728088,0 -90.25531000000001,30.729416,0 -90.25483699999999,30.730043,0 -90.25617200000001,30.733105,0 -90.25522599999999,30.733143,0 -90.255737,30.733807,0 -90.25569900000001,30.734543,0 -90.25483699999999,30.73436,0 -90.25406599999999,30.734543,0 -90.25354799999999,30.73436,0 -90.25359300000001,30.735613,0 -90.254707,30.737457,0 -90.25737000000001,30.738823,0 -90.25960499999999,30.739042,0 -90.26003299999999,30.738453,0 -90.26071900000001,30.73952299999999,0 -90.26067399999999,30.740076,0 -90.259857,30.740444,0 -90.260544,30.740814,0 -90.26114700000001,30.742067,0 -90.261017,30.742659,0 -90.26007100000001,30.742769,0 -90.26011699999999,30.743544,0 -90.26084899999999,30.743322,0 -90.26084899999999,30.744501,0 -90.26140599999999,30.744429,0 -90.26127599999998,30.745424,0 -90.261833,30.745461,0 -90.26187899999999,30.746309,0 -90.26075699999998,30.746641,0 -90.26063499999999,30.747158,0 -90.26148999999998,30.747232,0 -90.26170300000001,30.74749,0 -90.261101,30.747969,0 -90.26303900000002,30.748486,0 -90.26222199999999,30.749039,0 -90.261444,30.749113,0 -90.26153600000002,30.749777,0 -90.262306,30.749849,0 -90.26217699999999,30.749409,0 -90.263206,30.749409,0 -90.26445,30.749702,0 -90.26475499999999,30.750294,0 -90.264236,30.751436,0 -90.264923,30.751732,0 -90.26462600000001,30.752396,0 -90.26634200000001,30.752321,0 -90.266724,30.751621,0 -90.26758599999999,30.751989,0 -90.26599900000001,30.753981,0 -90.266769,30.755419,0 -90.266212,30.756342,0 -90.264709,30.756746,0 -90.265007,30.758223,0 -90.26445,30.758923,0 -90.26458,30.761395,0 -90.26329,30.762131,0 -90.26397700000001,30.763126,0 -90.263504,30.763939,0 -90.26462600000001,30.764233,0 -90.263504,30.76475,0 -90.262733,30.765303,0 -90.264664,30.768621,0 -90.26599900000001,30.768475,0 -90.26647199999999,30.769581,0 -90.267456,30.7691,0 -90.26840199999998,30.769432,0 -90.268486,30.770132,0 -90.269516,30.77087,0 -90.26947,30.772087,0 -90.27114899999999,30.771755,0 -90.272522,30.773083,0 -90.271919,30.773746,0 -90.273079,30.774446,0 -90.272392,30.77537,0 -90.27522299999998,30.775995,0 -90.274582,30.77644,0 -90.27448999999999,30.777212,0 -90.27574199999998,30.77725,0 -90.27706899999998,30.778835,0 -90.27672599999998,30.779131,0 -90.27749600000001,30.779867,0 -90.27629899999999,30.780788,0 -90.27749600000001,30.781565,0 -90.277756,30.78385,0 -90.278442,30.78455,0 -90.27792399999998,30.784992,0 -90.27878599999998,30.785839,0 -90.279175,30.785803,0 -90.279472,30.786505,0 -90.28028899999998,30.786577,0 -90.280327,30.787426,0 -90.28007500000001,30.788275,0 -90.279297,30.789011,0 -90.280029,30.789268,0 -90.28028899999998,30.7896,0 -90.27973200000001,30.789747,0 -90.27942700000001,30.791113,0 -90.27955599999999,30.791555,0 -90.279175,30.791555,0 -90.27964,30.792292,0 -90.27874,30.793509,0 -90.279343,30.794134,0 -90.279083,30.794687,0 -90.280243,30.79524,0 -90.2808,30.794909,0 -90.282089,30.795757,0 -90.28182999999999,30.796164,0 -90.282433,30.7969,0 -90.28299000000001,30.797085,0 -90.283592,30.796864,0 -90.28479,30.798595,0 -90.284363,30.798927,0 -90.284706,30.799334,0 -90.284363,30.799702,0 -90.28479,30.79988699999999,0 -90.284538,30.800365,0 -90.28616299999999,30.800659,0 -90.286766,30.801325,0 -90.28775799999998,30.801361,0 -90.288315,30.802097,0 -90.288612,30.801912,0 -90.28904,30.802429,0 -90.288696,30.802689,0 -90.288567,30.803389,0 -90.29003100000001,30.803978,0 -90.291061,30.804861,0 -90.290504,30.80571,0 -90.29178599999999,30.806152,0 -90.292389,30.806669,0 -90.29328899999999,30.806669,0 -90.293549,30.810061,0 -90.292778,30.81065,0 -90.293419,30.81065,0 -90.293159,30.811314,0 -90.29444900000001,30.812086,0 -90.294708,30.812824,0 -90.293846,30.814371,0 -90.29325100000001,30.814409,0 -90.29251899999998,30.815109,0 -90.291405,30.814924,0 -90.292,30.816584,0 -90.292435,30.817173,0 -90.291618,30.81839,0 -90.291061,30.818316,0 -90.29024499999998,30.819826,0 -90.290672,30.820675,0 -90.290283,30.820969,0 -90.290848,30.821743,0 -90.290283,30.822039,0 -90.290627,30.823145,0 -90.29110000000001,30.823292,0 -90.290848,30.823771,0 -90.29359400000001,30.825171,0 -90.293976,30.826349,0 -90.293846,30.827492,0 -90.294708,30.828745,0 -90.294495,30.831547,0 -90.295219,30.833094,0 -90.294746,30.833204,0 -90.29534899999999,30.834641,0 -90.295906,30.834789,0 -90.295998,30.835711,0 -90.29552500000001,30.835894,0 -90.295952,30.836447,0 -90.296555,30.836411,0 -90.297325,30.837772,0 -90.29706599999999,30.838215,0 -90.295952,30.838511,0 -90.295822,30.839247,0 -90.297409,30.840757,0 -90.29715,30.841349,0 -90.298309,30.841457,0 -90.298401,30.84271,0 -90.297882,30.843042,0 -90.297798,30.845474,0 -90.299126,30.847538,0 -90.299683,30.849195,0 -90.30062899999999,30.849602,0 -90.30105600000002,30.850853,0 -90.30363500000001,30.851774,0 -90.304581,30.851885,0 -90.30582399999999,30.853359,0 -90.308014,30.85428,0 -90.309944,30.856932,0 -90.309341,30.858185,0 -90.309944,30.859289,0 -90.31156899999999,30.860285,0 -90.312691,30.863157,0 -90.31414799999999,30.864153,0 -90.314537,30.865221,0 -90.314064,30.866953,0 -90.315262,30.870415,0 -90.31500200000001,30.87104,0 -90.31740599999999,30.872772,0 -90.317795,30.873693,0 -90.316551,30.876123,0 -90.31547499999999,30.877966,0 -90.315521,30.878923,0 -90.316292,30.87907,0 -90.31663500000002,30.895718,0 -90.32775100000001,30.895718,0 -90.32796500000001,30.902163,0 -90.341095,30.902163,0 -90.342308,31.000441,0 -90.03710900000002,31.001493,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Benedict Parish</name>
+		<styleUrl>#style41</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.02887000000001,30.561272,0 -90.029022,30.537079,0 -90.050911,30.51741000000001,0 -90.05742600000001,30.50849,0 -90.05729700000001,30.501478,0 -90.106949,30.499832,0 -90.110428,30.499319,0 -90.113007,30.498247,0 -90.119141,30.493662,0 -90.121201,30.492996,0 -90.13836699999999,30.492035,0 -90.186089,30.495289,0 -90.187462,30.495399,0 -90.189262,30.496029,0 -90.20479600000002,30.503868,0 -90.22827100000002,30.504313,0 -90.24479699999999,30.503647,0 -90.24533099999999,30.563652,0 -90.02887000000001,30.561272,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. John the Baptist Parish</name>
+		<styleUrl>#style57</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.24533099999999,30.563637,0 -90.02869400000002,30.561272,0 -90.028526,30.675611,0 -90.25666,30.706612,0 -90.25769,30.70484,0 -90.25580600000001,30.703808,0 -90.25546300000001,30.701593,0 -90.25237300000001,30.700855,0 -90.25237300000001,30.697903,0 -90.25048099999999,30.695395,0 -90.25219700000001,30.69273799999999,0 -90.25202899999999,30.688604,0 -90.25031299999999,30.685061,0 -90.25202899999999,30.682699,0 -90.25013700000001,30.680189,0 -90.25151099999999,30.67812199999999,0 -90.25237300000001,30.674873,0 -90.251167,30.669264,0 -90.25374600000001,30.667934,0 -90.249107,30.659962,0 -90.25031299999999,30.653316,0 -90.24430099999998,30.64652299999999,0 -90.24498699999999,30.643272,0 -90.24601699999999,30.642683,0 -90.24482,30.641207,0 -90.24704699999999,30.633673,0 -90.24619300000002,30.631754,0 -90.24842099999999,30.628504,0 -90.24704699999999,30.627766,0 -90.25151099999999,30.625107,0 -90.249107,30.614914,0 -90.24928300000001,30.612549,0 -90.24670399999999,30.610037,0 -90.24842099999999,30.604424,0 -90.24533099999999,30.598366,0 -90.243103,30.593784,0 -90.24619300000002,30.59009,0 -90.24928300000001,30.587282,0 -90.24773399999999,30.584328,0 -90.24585000000002,30.579597,0 -90.24533099999999,30.563637,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Anselm Parish</name>
+		<styleUrl>#style62</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.24479699999999,30.503641,0 -90.243469,30.363781,0 -90.236923,30.369217,0 -90.218895,30.380917,0 -90.20877100000001,30.386101,0 -90.199501,30.388321,0 -90.19297800000001,30.38847,0 -90.187996,30.387432,0 -90.18439499999999,30.383139,0 -90.18096199999999,30.380917,0 -90.178558,30.381805,0 -90.17031900000001,30.381657,0 -90.16619900000001,30.381361,0 -90.16310900000002,30.379583,0 -90.16361999999999,30.377659,0 -90.15915700000001,30.376326,0 -90.143196,30.373659,0 -90.139076,30.372772,0 -90.132034,30.369808,0 -90.126541,30.368477,0 -90.12558699999998,30.403477,0 -90.12936399999998,30.404957,0 -90.129189,30.407473,0 -90.127899,30.407177,0 -90.125328,30.413099,0 -90.126274,30.415319,0 -90.126274,30.41679999999999,0 -90.125671,30.41717,0 -90.124985,30.41679999999999,0 -90.12395499999998,30.413839,0 -90.122406,30.413544,0 -90.120346,30.417023,0 -90.11854599999998,30.41717,0 -90.11648600000001,30.414209,0 -90.11425800000001,30.413544,0 -90.114082,30.417023,0 -90.10515599999998,30.419834,0 -90.10430100000001,30.422722,0 -90.10842100000001,30.42568,0 -90.11048099999999,30.425755,0 -90.112022,30.426718,0 -90.11056499999998,30.429159,0 -90.11236600000001,30.43160200000001,0 -90.118202,30.436708,0 -90.117088,30.43915,0 -90.14497399999999,30.448168,0 -90.145157,30.481617,0 -90.14604900000002,30.482384,0 -90.14621699999999,30.483232,0 -90.14746099999999,30.482826,0 -90.148537,30.483788,0 -90.14849100000001,30.484196,0 -90.14806400000001,30.484158,0 -90.14755200000002,30.484936,0 -90.14759100000001,30.485489,0 -90.14909400000001,30.485489,0 -90.14982599999999,30.484936,0 -90.15132900000002,30.48597,0 -90.151459,30.487303,0 -90.152359,30.487339,0 -90.15273999999999,30.48752199999999,0 -90.15300000000001,30.488485,0 -90.15523499999999,30.489336,0 -90.156136,30.48893,0 -90.156693,30.489225,0 -90.15733300000001,30.489151,0 -90.15814999999999,30.490074,0 -90.15866899999999,30.489742,0 -90.15926399999998,30.489779,0 -90.16017200000002,30.490936,0 -90.161636,30.491676,0 -90.162148,30.491234,0 -90.16275,30.491676,0 -90.164978,30.491676,0 -90.164978,30.492268,0 -90.16420699999999,30.492342,0 -90.164894,30.492786,0 -90.165756,30.492638,0 -90.16610000000001,30.491676,0 -90.16764099999999,30.491751,0 -90.168671,30.492416,0 -90.169014,30.49323100000001,0 -90.169785,30.49345,0 -90.17016599999999,30.494143,0 -90.187889,30.495438,0 -90.204926,30.503868,0 -90.226952,30.504396,0 -90.24479699999999,30.503641,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Peter Parish</name>
+		<styleUrl>#style22</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.16999800000001,30.494143,0 -90.16965500000001,30.493441,0 -90.16866300000001,30.493292,0 -90.16862500000002,30.492739,0 -90.16823599999998,30.492035,0 -90.16712199999999,30.49159,0 -90.16596200000001,30.491886,0 -90.16583300000001,30.492554,0 -90.1651,30.492886,0 -90.16407,30.492479,0 -90.16407,30.492109,0 -90.16493199999999,30.492109,0 -90.16493199999999,30.491739,0 -90.16321600000002,30.491554,0 -90.16274300000001,30.491739,0 -90.16227000000001,30.491297,0 -90.16171299999999,30.491701,0 -90.160599,30.490963,0 -90.15999599999999,30.491037,0 -90.15935500000001,30.489927,0 -90.15862300000001,30.489817,0 -90.15819500000001,30.490149,0 -90.15746300000001,30.489519,0 -90.15729499999999,30.489151,0 -90.15664699999999,30.4893,0 -90.15609000000002,30.48893,0 -90.15519,30.489372,0 -90.15381600000001,30.488966,0 -90.15317500000002,30.488781,0 -90.15278600000001,30.488337,0 -90.15270200000001,30.48756,0 -90.152016,30.487265,0 -90.15128300000001,30.487375,0 -90.15123699999999,30.48608,0 -90.15033699999999,30.485306,0 -90.14986400000001,30.484936,0 -90.14913900000001,30.485525,0 -90.14810899999999,30.485453,0 -90.14742300000002,30.485525,0 -90.14742300000002,30.484898,0 -90.14776600000002,30.484491,0 -90.14793400000001,30.484083,0 -90.14832299999999,30.484158,0 -90.148582,30.483898,0 -90.14776600000002,30.483343,0 -90.14737700000001,30.482901,0 -90.14608800000001,30.483307,0 -90.146004,30.48242,0 -90.145363,30.482014,0 -90.14484400000001,30.481716,0 -90.14489,30.448204,0 -90.116867,30.439066,0 -90.11751599999999,30.438189,0 -90.11803399999999,30.43693,0 -90.11537199999999,30.434193,0 -90.11219800000001,30.431677,0 -90.11056499999998,30.429087,0 -90.11193799999999,30.426718,0 -90.11048099999999,30.425755,0 -90.10833,30.425755,0 -90.10430100000001,30.422722,0 -90.10283699999999,30.422869,0 -90.10317999999999,30.4242,0 -90.101463,30.424274,0 -90.101555,30.424719,0 -90.10232500000001,30.424793,0 -90.10232500000001,30.425385,0 -90.10069300000001,30.425755,0 -90.10060900000001,30.42494,0 -90.099495,30.4242,0 -90.098122,30.4242,0 -90.09691599999999,30.424793,0 -90.09674800000001,30.42568,0 -90.09571800000001,30.425978,0 -90.09580200000002,30.425089,0 -90.09485599999999,30.424793,0 -90.09279599999999,30.423758,0 -90.09065200000001,30.423239,0 -90.084816,30.424274,0 -90.08448799999999,30.43199299999999,0 -90.08215300000001,30.445736,0 -90.08223700000001,30.458685,0 -90.07743099999999,30.458832,0 -90.075806,30.459793,0 -90.05589300000001,30.460091,0 -90.05729700000001,30.501465,0 -90.10472100000001,30.499874,0 -90.108238,30.499617,0 -90.110474,30.499283,0 -90.112663,30.498396,0 -90.118065,30.494438,0 -90.12086499999999,30.493008,0 -90.137344,30.492046,0 -90.16999800000001,30.494143,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mary Queen of Peace Parish</name>
+		<styleUrl>#style33</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.12896000000001,30.407339,0 -90.129372,30.405029,0 -90.12917299999999,30.40477,0 -90.12535100000001,30.403549,0 -90.12635,30.368601,0 -90.12455,30.36808,0 -90.12352,30.36734,0 -90.12171899999998,30.367861,0 -90.119827,30.36808,0 -90.1194,30.36726,0 -90.116913,30.366449,0 -90.111763,30.366819,0 -90.10849800000001,30.366381,0 -90.10797900000001,30.365561,0 -90.10507200000001,30.365709,0 -90.103088,30.36541,0 -90.10086099999999,30.365561,0 -90.09777099999999,30.36541,0 -90.09580200000002,30.36541,0 -90.093987,30.36377,0 -90.08883700000001,30.39407,0 -90.085915,30.40449,0 -90.08396900000001,30.41511,0 -90.083641,30.417299,0 -90.084641,30.4242,0 -90.090729,30.423161,0 -90.09571099999999,30.425011,0 -90.09596999999998,30.425751,0 -90.09683200000001,30.4256,0 -90.096481,30.42449,0 -90.09863299999999,30.42412,0 -90.100601,30.42486,0 -90.10086099999999,30.425529,0 -90.102226,30.425159,0 -90.101288,30.424789,0 -90.101463,30.423969,0 -90.103088,30.424049,0 -90.102661,30.422859,0 -90.104118,30.42264,0 -90.10507200000001,30.41976,0 -90.10833,30.418791,0 -90.112022,30.41761,0 -90.113823,30.416941,0 -90.11390700000001,30.41457,0 -90.114159,30.413389,0 -90.116478,30.41398,0 -90.118538,30.41702099999999,0 -90.12017100000001,30.41702099999999,0 -90.12146,30.41383,0 -90.12226899999999,30.413271,0 -90.123993,30.41371,0 -90.12496899999999,30.41671,0 -90.12552599999999,30.416969,0 -90.12612900000001,30.416599,0 -90.126053,30.41527,0 -90.12587000000001,30.414009,0 -90.125023,30.412939,0 -90.127724,30.406981,0 -90.12896000000001,30.407339,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Benilde Parish Parish</name>
+		<styleUrl>#style34</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.156105,29.982023,0 -90.16143,29.982285,0 -90.16153700000001,29.982174,0 -90.16433000000001,29.982227,0 -90.165268,29.981764,0 -90.170227,29.982117,0 -90.17192100000001,29.998379,0 -90.155441,29.997486,0 -90.156105,29.982023,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St Christopher Parish</name>
+		<styleUrl>#style70</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.184196,29.998936,0 -90.171944,29.998323,0 -90.17027299999999,29.98208,0 -90.165184,29.981745,0 -90.164345,29.982117,0 -90.16147599999999,29.982136,0 -90.15615099999998,29.981932,0 -90.15656300000001,29.973864,0 -90.163574,29.970779,0 -90.177498,29.971615,0 -90.17831400000001,29.97431,0 -90.17799399999998,29.975594,0 -90.18087,29.985556,0 -90.181747,29.99457,0 -90.18222000000002,29.99531199999999,0 -90.18364,29.996428,0 -90.184196,29.998936,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Edward the Confessor Parish</name>
+		<styleUrl>#style90</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.177589,29.97164,0 -90.195618,29.972866,0 -90.196091,29.976881,0 -90.19883700000001,29.984131,0 -90.20037799999999,29.988665,0 -90.20024899999999,29.989298,0 -90.201408,29.99227,0 -90.20111099999998,29.99818,0 -90.20021100000001,30.000744,0 -90.19681499999999,29.999928,0 -90.184372,29.999071,0 -90.18364,29.996321,0 -90.182182,29.995094,0 -90.18175499999998,29.993904,0 -90.180984,29.98584,0 -90.17797899999999,29.975468,0 -90.17836,29.974316,0 -90.177589,29.97164,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Mary Magdalen Parish</name>
+		<styleUrl>#style32</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.199898,30.00058,0 -90.211647,30.007271,0 -90.22280900000001,30.008011,0 -90.21732299999999,29.99144,0 -90.21080000000001,29.97397,0 -90.210632,29.974045,0 -90.195587,29.97287,0 -90.19609800000001,29.976851,0 -90.200394,29.98877,0 -90.200333,29.989361,0 -90.20146899999999,29.99231899999999,0 -90.20127099999999,29.99671,0 -90.20143899999999,29.9988,0 -90.199898,30.00058,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Matthew Parish</name>
+		<styleUrl>#style58</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.22127500000001,29.978209,0 -90.23069000000001,29.963381,0 -90.23058300000001,29.962761,0 -90.230148,29.96295,0 -90.229767,29.96261,0 -90.229919,29.962111,0 -90.22856899999999,29.960939,0 -90.22827100000002,29.96035,0 -90.22474699999998,29.956989,0 -90.221397,29.95126,0 -90.220367,29.94788,0 -90.21904000000001,29.94516,0 -90.21843699999999,29.944599,0 -90.218063,29.943041,0 -90.218307,29.942711,0 -90.21642300000001,29.937799,0 -90.203423,29.95331,0 -90.212006,29.97776199999999,0 -90.22127500000001,29.978209,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Divine Mercy Parish</name>
+		<styleUrl>#style64</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.27899900000001,30.048157,0 -90.27685499999998,30.049643,0 -90.268784,30.048973,0 -90.26612900000001,30.0476,0 -90.26505299999998,30.047747,0 -90.26359599999999,30.048601,0 -90.258957,30.048267,0 -90.25157900000001,30.04522100000001,0 -90.24591100000001,30.041618,0 -90.24561300000001,30.04113600000001,0 -90.24651299999999,30.040243,0 -90.24720000000001,30.036379,0 -90.24642899999999,30.013788,0 -90.24437,30.006689,0 -90.24668100000001,30.006689,0 -90.24625399999998,30.004498,0 -90.24805499999999,30.002008,0 -90.248833,30.001747,0 -90.25037399999999,29.997362,0 -90.25282300000001,29.996395,0 -90.26565599999999,29.999443,0 -90.266167,29.996023,0 -90.27998399999998,29.998886,0 -90.27899900000001,30.048157,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Our Lady of Divine Providence Parish</name>
+		<styleUrl>#style4</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.24500999999999,30.009319,0 -90.222992,30.00828,0 -90.21736900000001,29.99152,0 -90.21492000000001,29.984974,0 -90.21209,29.977985,0 -90.236977,29.979481,0 -90.234283,29.98892,0 -90.24787900000001,29.991671,0 -90.243927,30.005461,0 -90.24500999999999,30.009319,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Angela Merici Parish</name>
+		<styleUrl>#style68</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.15424299999999,30.020329,0 -90.15325900000001,30.020254,0 -90.15261099999999,30.02018,0 -90.15222900000001,30.019844,0 -90.14557600000001,30.019882,0 -90.14278400000001,30.023228,0 -90.140686,30.01995700000001,0 -90.137123,30.01995700000001,0 -90.137978,30.001562,0 -90.132698,30.00145,0 -90.132874,29.996544,0 -90.15544899999999,29.997475,0 -90.15424299999999,30.020329,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Catherine of Siena Parish</name>
+		<styleUrl>#style96</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.15531900000001,29.997326,0 -90.13472,29.996284,0 -90.135704,29.973015,0 -90.156479,29.974726,0 -90.15531900000001,29.997326,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Francis Xavier Parish</name>
+		<styleUrl>#style60</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.13453699999998,29.996349,0 -90.120773,29.9958,0 -90.117851,29.99383,0 -90.116302,29.991631,0 -90.116257,29.98847,0 -90.11369300000001,29.981039,0 -90.124931,29.979259,0 -90.125793,29.97238,0 -90.13562,29.97308,0 -90.135696,29.973301,0 -90.13535299999999,29.982519,0 -90.13453699999998,29.996349,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Jerome Parish</name>
+		<styleUrl>#style14</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.245575,30.041258,0 -90.242569,30.041332,0 -90.23878499999998,30.040579,0 -90.23806,30.042881,0 -90.235313,30.042473,0 -90.235657,30.039984,0 -90.234154,30.039576,0 -90.23307800000001,30.038683,0 -90.231667,30.037939,0 -90.221191,30.007992,0 -90.24509399999999,30.009403,0 -90.24642899999999,30.013826,0 -90.24728399999999,30.036528,0 -90.24646799999999,30.040243,0 -90.245575,30.041258,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Philip Neri Parish</name>
+		<styleUrl>#style75</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.198151,30.000336,0 -90.208618,30.029692,0 -90.218277,30.033592,0 -90.21939099999999,30.033928,0 -90.22024500000001,30.034225,0 -90.221581,30.033964,0 -90.231537,30.038052,0 -90.221191,30.008102,0 -90.213036,30.007507,0 -90.208618,30.005465,0 -90.20273600000002,30.001747,0 -90.198151,30.000336,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Rita Parish</name>
+		<styleUrl>#style59</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.21646900000002,29.9377,0 -90.213898,29.93041,0 -90.211578,29.927429,0 -90.207123,29.925501,0 -90.20205700000001,29.92609,0 -90.1978,29.927937,0 -90.193718,29.93016799999999,0 -90.18566099999998,29.93487,0 -90.171761,29.9464,0 -90.17931400000002,29.953541,0 -90.181892,29.95495,0 -90.185402,29.96566,0 -90.17948199999999,29.97146,0 -90.21054799999999,29.97369,0 -90.203339,29.95332000000001,0 -90.21646900000002,29.9377,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Agnes Parish</name>
+		<styleUrl>#style78</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.17166899999999,29.94643,0 -90.179565,29.953756,0 -90.181709,29.954908,0 -90.185356,29.965578,0 -90.18479899999998,29.966211,0 -90.17938999999998,29.971527,0 -90.16351299999999,29.970821,0 -90.155663,29.974316,0 -90.13034100000002,29.972717,0 -90.131111,29.972235,0 -90.139267,29.954016,0 -90.13990800000001,29.954983,0 -90.14085399999999,29.955688,0 -90.14137300000002,29.956432,0 -90.143173,29.957102,0 -90.14368399999999,29.957512,0 -90.149353,29.95937,0 -90.15136699999999,29.959667,0 -90.153519,29.959446,0 -90.15767700000001,29.957697,0 -90.15788999999998,29.957066,0 -90.16287199999999,29.953867,0 -90.16304,29.953197,0 -90.16458900000001,29.95223,0 -90.16501599999998,29.952343,0 -90.165916,29.952974,0 -90.16625999999999,29.952602,0 -90.16540499999999,29.95174799999999,0 -90.17166899999999,29.94643,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Louis King of France Parish</name>
+		<styleUrl>#style55</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.11598200000002,29.995661,0 -90.132828,29.99654,0 -90.132698,30.00148,0 -90.13793200000002,30.001591,0 -90.137123,30.019991,0 -90.12818900000001,30.02014,0 -90.12738,30.02047,0 -90.12587000000001,30.02055,0 -90.125443,30.02099,0 -90.125664,30.022921,0 -90.12513700000001,30.02326,0 -90.124031,30.023451,0 -90.124031,30.022961,0 -90.12513700000001,30.02285,0 -90.12532,30.021919,0 -90.12386300000001,30.0214,0 -90.12226899999999,30.021481,0 -90.121674,30.021999,0 -90.12174999999999,30.023149,0 -90.122139,30.0233,0 -90.121933,30.02352,0 -90.121239,30.02259099999999,0 -90.11428099999999,30.023363,0 -90.11509700000001,30.014706,0 -90.115616,30.005936,0 -90.11598200000002,29.995661,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Rita Parish</name>
+		<styleUrl>#style100</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.107506,29.967762,0 -90.120125,29.95579,0 -90.11675299999999,29.952927,0 -90.116478,29.951979,0 -90.112892,29.943464,0 -90.11048899999999,29.942087,0 -90.107468,29.953188,0 -90.100876,29.962408,0 -90.107506,29.967762,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Blessed Trinity Parish</name>
+		<styleUrl>#style66</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.09997599999998,29.94065700000001,0 -90.09670300000001,29.927963,0 -90.107697,29.927137,0 -90.10877199999999,29.927183,0 -90.10881000000001,29.926542,0 -90.112984,29.92857,0 -90.10951999999999,29.941502,0 -90.11045799999998,29.942051,0 -90.10745199999999,29.95315,0 -90.10082200000001,29.962408,0 -90.085297,29.950529,0 -90.08843199999998,29.946272,0 -90.096245,29.941605,0 -90.098534,29.940676,0 -90.09997599999998,29.94065700000001,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mater Dolorosa Parish</name>
+		<styleUrl>#style103</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.12473300000001,29.97913,0 -90.11367799999998,29.98094,0 -90.10945100000001,29.970289,0 -90.10753600000001,29.96785,0 -90.11097700000001,29.964787,0 -90.11535600000002,29.960476,0 -90.12016300000001,29.955641,0 -90.118019,29.954153,0 -90.116516,29.952147,0 -90.118629,29.94911,0 -90.13545999999999,29.927971,0 -90.139214,29.954411,0 -90.12590799999998,29.973,0 -90.12473300000001,29.97913,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Alphonsus Parish</name>
+		<styleUrl>#style12</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.08051300000001,29.919161,0 -90.08884399999998,29.930727,0 -90.08039100000001,29.935637,0 -90.08073400000001,29.935934,0 -90.078712,29.937309,0 -90.07485200000002,29.933887,0 -90.061508,29.931025,0 -90.06901599999999,29.922991,0 -90.08051300000001,29.919161,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Francis of Assisi Parish</name>
+		<styleUrl>#style19</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.13542200000001,29.927839,0 -90.13490299999999,29.91778,0 -90.12957799999998,29.91419,0 -90.12030799999999,29.91218,0 -90.115082,29.91205,0 -90.11306,29.925011,0 -90.115959,29.925528,0 -90.115959,29.925751,0 -90.11982,29.926588,0 -90.12348899999999,29.927982,0 -90.131844,29.932474,0 -90.13542200000001,29.927839,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Katharine Drexel Parish</name>
+		<styleUrl>#style2</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.099846,29.940525,0 -90.096581,29.92812,0 -90.091904,29.92935,0 -90.08873000000001,29.930719,0 -90.080528,29.935711,0 -90.080742,29.9361,0 -90.078728,29.937469,0 -90.0886,29.946171,0 -90.09568000000002,29.94195,0 -90.09847299999998,29.940689,0 -90.099846,29.940525,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Patrick Parish</name>
+		<styleUrl>#style13</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.060677,29.94113,0 -90.064728,29.94165,0 -90.07180800000002,29.943239,0 -90.07222000000002,29.94372,0 -90.07286800000001,29.943569,0 -90.07353199999999,29.944389,0 -90.078621,29.937531,0 -90.088509,29.946289,0 -90.085121,29.950689,0 -90.08410600000001,29.949739,0 -90.082527,29.94865,0 -90.08171100000001,29.948271,0 -90.081017,29.9487,0 -90.078773,29.94787,0 -90.07675200000001,29.947201,0 -90.07578999999998,29.95093,0 -90.061279,29.94775,0 -90.060677,29.94113,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Theresa of Avila Parish</name>
+		<styleUrl>#style91</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.06073000000001,29.941195,0 -90.06506300000001,29.941734,0 -90.072914,29.943296,0 -90.07353999999999,29.944225,0 -90.078514,29.937569,0 -90.07480599999998,29.933998,0 -90.061584,29.931248,0 -90.061584,29.931248,0 -90.061584,29.931248,0 -90.06081399999999,29.93622,0 -90.06073000000001,29.941195,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Good Shepherd Parish</name>
+		<styleUrl>#style67</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.115059,29.9116,0 -90.11248000000001,29.92823,0 -90.108788,29.926411,0 -90.10862,29.927151,0 -90.096474,29.928011,0 -90.088921,29.93054,0 -90.084717,29.925184,0 -90.080505,29.919085,0 -90.091499,29.914949,0 -90.10298899999998,29.91235,0 -90.115059,29.9116,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Our Lady of the Rosary Parish</name>
+		<styleUrl>#style26</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.08326700000001,30.020651,0 -90.084801,30.013479,0 -90.085297,30.006641,0 -90.08538100000001,29.999619,0 -90.08496900000002,29.996849,0 -90.086319,29.99264,0 -90.080742,29.99238,0 -90.080788,29.988871,0 -90.080704,29.9876,0 -90.080742,29.986641,0 -90.08122999999999,29.983749,0 -90.076607,29.98398,0 -90.06973299999999,29.979309,0 -90.07328800000001,29.97529,0 -90.073677,29.974649,0 -90.074753,29.973619,0 -90.07820100000002,29.97608,0 -90.08287800000001,29.97077,0 -90.102142,29.98399,0 -90.101173,29.992121,0 -90.100342,29.994749,0 -90.09880099999999,30.00156,0 -90.098877,30.003941,0 -90.09905999999999,30.0065,0 -90.09868600000001,30.00914,0 -90.09761,30.014351,0 -90.09661100000001,30.018591,0 -90.09168200000001,30.018379,0 -90.08830299999998,30.0193,0 -90.08579300000001,30.02034,0 -90.08326700000001,30.020651,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Annunciation Parish</name>
+		<styleUrl>#style6</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.028183,30.675611,0 -89.98286400000001,30.661142,0 -89.851395,30.661333,0 -89.85277600000001,30.663992,0 -89.84831200000001,30.666059,0 -89.84556600000001,30.663107,0 -89.842957,30.664686,0 -89.84227,30.667343,0 -89.839355,30.668377,0 -89.83815,30.673101,0 -89.840553,30.674135,0 -89.842445,30.671625,0 -89.842789,30.668819,0 -89.84639,30.669264,0 -89.847252,30.671183,0 -89.844505,30.67325,0 -89.842102,30.676792,0 -89.83729599999999,30.677088,0 -89.837463,30.679302,0 -89.840897,30.679155,0 -89.842445,30.680632,0 -89.840553,30.683289,0 -89.83729599999999,30.687864,0 -89.839012,30.688604,0 -89.841583,30.68639,0 -89.846046,30.687717,0 -89.84433,30.691704,0 -89.836433,30.690819,0 -89.83523599999999,30.692442,0 -89.838837,30.69495,0 -89.837982,30.696871,0 -89.83663900000001,30.701195,0 -89.83869900000001,30.704737,0 -89.843163,30.702967,0 -89.84659600000001,30.704147,0 -89.84556600000001,30.708279,0 -89.840408,30.71123100000001,0 -89.842468,30.7192,0 -89.840073,30.721857,0 -89.836983,30.716543,0 -89.83113899999999,30.714773,0 -89.83113899999999,30.722742,0 -89.82564499999999,30.72835,0 -89.82976499999999,30.728645,0 -89.835953,30.726873,0 -89.836288,30.728939,0 -89.82976499999999,30.73012,0 -89.8284,30.73307,0 -89.83149,30.733368,0 -89.83663900000001,30.733368,0 -89.836288,30.736908,0 -89.82667499999999,30.736612,0 -89.8284,30.739267,0 -89.82564499999999,30.744286,0 -89.824966,30.750481,0 -89.822906,30.756382,0 -89.825996,30.753727,0 -89.828056,30.756382,0 -89.825996,30.760218,0 -89.83113899999999,30.761692,0 -89.833549,30.767887,0 -89.83010899999999,30.769657,0 -89.827026,30.776442,0 -89.83113899999999,30.779982,0 -89.8284,30.784407,0 -89.82428,30.779982,0 -89.81912199999999,30.7847,0 -89.821877,30.79178,0 -89.817757,30.798563,0 -89.81500200000001,30.800331,0 -89.814667,30.804754,0 -89.810883,30.800627,0 -89.80435900000001,30.803871,0 -89.797836,30.811832,0 -89.789948,30.810358,0 -89.786858,30.815666,0 -89.781013,30.820679,0 -89.786163,30.821562,0 -89.788223,30.8251,0 -89.782043,30.832766,0 -89.78479799999999,30.833944,0 -89.788567,30.830406,0 -89.790977,30.831881,0 -89.787888,30.843082,0 -89.792686,30.848682,0 -89.790977,30.852514,0 -89.784103,30.849567,0 -89.783424,30.852514,0 -89.784103,30.856936,0 -89.77621499999999,30.854874,0 -89.77106499999999,30.855461,0 -89.77243,30.861357,0 -89.76763200000001,30.866367,0 -89.778954,30.874029,0 -89.77861,30.881395,0 -89.77415499999999,30.881689,0 -89.77072099999999,30.879333,0 -89.768311,30.881985,0 -89.77346,30.885225,0 -89.77209499999999,30.892885,0 -89.77381099999999,30.898483,0 -89.76763200000001,30.898483,0 -89.76007799999999,30.897011,0 -89.756638,30.900841,0 -89.760048,30.906689,0 -89.764336,30.908455,0 -89.764336,30.91360999999999,0 -89.757812,30.915966,0 -89.753693,30.912872,0 -89.747169,30.913904,0 -89.74408,30.922005,0 -89.751808,30.923771,0 -89.753525,30.928335,0 -89.748543,30.932165,0 -89.750778,30.936436,0 -89.755753,30.940411,0 -89.756096,30.944532,0 -89.750603,30.952482,0 -89.74305,30.955574,0 -89.743225,30.960285,0 -89.73498499999999,30.967497,0 -89.72949199999999,30.965584,0 -89.726913,30.969999,0 -89.73223900000001,30.973385,0 -89.737213,30.976034,0 -89.73567199999999,30.978683,0 -89.73137699999999,30.977947,0 -89.73069,30.987661,0 -89.72828699999999,30.994431,0 -89.73275,30.994577,0 -89.73601499999999,31.00061,0 -89.738586,31.003111,0 -89.744766,31.00326,0 -89.749229,30.999434,0 -89.753349,31.001493,0 -89.759872,31.002377,0 -90.037086,31.001534,0 -90.028183,30.675611,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Our Lady of Lourdes Parish</name>
+		<styleUrl>#style46</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.61573799999999,30.23905,0 -89.672218,30.23068,0 -89.675522,30.22953,0 -89.678093,30.228041,0 -89.685219,30.22897,0 -89.68942300000001,30.22897,0 -89.692429,30.229561,0 -89.69383999999999,30.23027,0 -89.69589999999999,30.232679,0 -89.699417,30.237761,0 -89.70053900000001,30.24239,0 -89.70925099999999,30.25585,0 -89.71131099999999,30.25733,0 -89.71946699999999,30.26082,0 -89.724442,30.26189,0 -89.735733,30.26615,0 -89.743713,30.267969,0 -89.751312,30.26893,0 -89.75676,30.271339,0 -89.76178,30.273161,0 -89.766327,30.276791,0 -89.767921,30.27738,0 -89.78563699999999,30.27779,0 -89.78572800000001,30.277241,0 -89.785004,30.27623,0 -89.786537,30.275419,0 -89.78894,30.27364,0 -89.790283,30.273899,0 -89.79331999999999,30.271971,0 -89.79387699999999,30.271339,0 -89.796539,30.27112,0 -89.79911800000001,30.272341,0 -89.80088000000001,30.27434,0 -89.80178100000001,30.27409,0 -89.804306,30.273005,0 -89.804947,30.27149,0 -89.80564099999999,30.26964,0 -89.806107,30.26893,0 -89.805679,30.26708,0 -89.806877,30.265631,0 -89.80766300000001,30.2626,0 -89.812592,30.261,0 -89.81474300000001,30.260889,0 -89.81693300000001,30.260189,0 -89.819031,30.260189,0 -89.822929,30.261221,0 -89.826279,30.26063,0 -89.82813299999999,30.25985,0 -89.830101,30.26033,0 -89.830872,30.26045,0 -89.833656,30.25893,0 -89.836708,30.257111,0 -89.837608,30.25511,0 -89.838509,30.25477,0 -89.840141,30.25544,0 -89.841301,30.25585,0 -89.84388,30.254589,0 -89.84465,30.25329,0 -89.844818,30.251989,0 -89.84362,30.250099,0 -89.84388,30.24929,0 -89.848167,30.24909999999999,0 -89.849281,30.249439,0 -89.850227,30.251591,0 -89.85163900000001,30.251329,0 -89.852417,30.24984,0 -89.852501,30.248659,0 -89.85392,30.24836,0 -89.85482,30.24891999999999,0 -89.858467,30.25066,0 -89.859413,30.251221,0 -89.859497,30.252399,0 -89.858597,30.25392,0 -89.85881000000001,30.25489,0 -89.8601,30.25503,0 -89.862717,30.25351,0 -89.864822,30.24984,0 -89.856972,30.23587,0 -89.850098,30.225109,0 -89.84854900000001,30.224331,0 -89.846321,30.22419,0 -89.840874,30.22411,0 -89.837608,30.22419,0 -89.833878,30.223631,0 -89.830101,30.222441,0 -89.827698,30.22089,0 -89.824608,30.21818,0 -89.82285299999999,30.216921,0 -89.82195299999999,30.216921,0 -89.820999,30.216579,0 -89.818642,30.217291,0 -89.80954,30.21647099999999,0 -89.80238300000001,30.213949,0 -89.799553,30.213949,0 -89.79834,30.213249,0 -89.79753100000001,30.213579,0 -89.791313,30.209431,0 -89.789253,30.209021,0 -89.788521,30.20935100000001,0 -89.76979799999999,30.19886,0 -89.76670799999999,30.19689,0 -89.763802,30.196329,0 -89.762512,30.1957,0 -89.761436,30.19389,0 -89.761948,30.19207,0 -89.76168800000001,30.19129,0 -89.753502,30.177561,0 -89.752769,30.177971,0 -89.752602,30.18001,0 -89.75148,30.181271,0 -89.75032,30.18124,0 -89.74852,30.180611,0 -89.745941,30.181351,0 -89.744698,30.181271,0 -89.73745,30.17853,0 -89.73483299999999,30.178011,0 -89.732079,30.1763,0 -89.73110200000001,30.1763,0 -89.729286,30.175631,0 -89.72891199999999,30.174339,0 -89.725731,30.17289,0 -89.718529,30.165991,0 -89.707199,30.169849,0 -89.691063,30.17786,0 -89.687241,30.17795,0 -89.68261,30.17757,0 -89.678833,30.176241,0 -89.672478,30.17297,0 -89.661491,30.168739,0 -89.652817,30.161249,0 -89.647423,30.161699,0 -89.644333,30.161699,0 -89.630341,30.16036,0 -89.623299,30.16021,0 -89.619179,30.159691,0 -89.607422,30.153681,0 -89.60236399999999,30.15398,0 -89.597893,30.15205,0 -89.594032,30.149969,0 -89.591537,30.14967,0 -89.586388,30.15093,0 -89.57514999999999,30.157841,0 -89.573601,30.15954,0 -89.57317399999999,30.16518,0 -89.573601,30.16815,0 -89.570511,30.172899,0 -89.55995900000001,30.178539,0 -89.556183,30.18017,0 -89.545967,30.18121,0 -89.538498,30.181801,0 -89.537811,30.18062,0 -89.531982,30.178089,0 -89.531548,30.182249,0 -89.52973900000001,30.187889,0 -89.530602,30.190479,0 -89.534813,30.19412,0 -89.536697,30.194941,0 -89.543648,30.19412,0 -89.547417,30.191971,0 -89.55136899999999,30.18626,0 -89.570679,30.179131,0 -89.57910200000001,30.18099,0 -89.580383,30.18507,0 -89.583817,30.187,0 -89.587158,30.191151,0 -89.590172,30.20072,0 -89.595749,30.209249,0 -89.602272,30.21563,0 -89.610336,30.21689,0 -89.613693,30.218149,0 -89.61685900000001,30.221939,0 -89.618233,30.225719,0 -89.618233,30.22994,0 -89.616783,30.23654,0 -89.61573799999999,30.23905,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Our Lady of Perpetual Help Parish</name>
+		<styleUrl>#style102</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.23075899999999,29.96353,0 -90.232651,29.96442,0 -90.23312399999999,29.96557,0 -90.23381000000001,29.96587,0 -90.23445100000001,29.96587,0 -90.23484000000001,29.966431,0 -90.23818199999999,29.96862,0 -90.242859,29.970449,0 -90.244919,29.9713,0 -90.24548300000001,29.971081,0 -90.24655200000001,29.971411,0 -90.24646799999999,29.97167,0 -90.24561300000001,29.971411,0 -90.24543799999999,29.97171,0 -90.24754299999998,29.97212,0 -90.248306,29.97193,0 -90.251358,29.9729,0 -90.25797300000002,29.97374900000001,0 -90.262428,29.973789,0 -90.263031,29.974091,0 -90.276382,29.973379,0 -90.276978,29.97361,0 -90.277451,29.97316,0 -90.278519,29.972969,0 -90.279167,29.97308,0 -90.280708,29.972639,0 -90.290413,29.96792,0 -90.302559,29.959629,0 -90.306892,29.97242,0 -90.28547700000001,29.996469,0 -90.27951,29.993641,0 -90.27967800000002,29.992451,0 -90.277618,29.99122,0 -90.278313,29.99052,0 -90.267242,29.98312,0 -90.26332900000001,29.983829,0 -90.25118999999999,29.981371,0 -90.24780300000002,29.991631,0 -90.23423,29.98885,0 -90.237022,29.979481,0 -90.22538800000001,29.978729,0 -90.22170300000001,29.978432,0 -90.223251,29.974649,0 -90.23075899999999,29.96353,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Most Holy Trinity Parish</name>
+		<styleUrl>#style98</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.084473,30.429234,0 -90.08451100000001,30.431961,0 -90.08210800000001,30.44565,0 -90.08219099999999,30.458635,0 -90.07746900000001,30.45882,0 -90.07566799999999,30.45974500000001,0 -90.05592300000001,30.460079,0 -90.00872,30.460005,0 -90.006531,30.458673,0 -90.00412799999998,30.457342,0 -89.996315,30.454382,0 -89.913315,30.433958,0 -89.927567,30.41937799999999,0 -89.931602,30.416824,0 -89.933792,30.414864,0 -89.935936,30.412569,0 -89.93885,30.408054,0 -89.942329,30.405722,0 -89.944992,30.40465,0 -89.954002,30.403797,0 -89.97386899999999,30.402281,0 -89.97683000000001,30.401873,0 -89.99387400000001,30.395321,0 -89.997818,30.394655,0 -90.019318,30.3864,0 -90.03756,30.38081,0 -90.05468,30.37422,0 -90.05441999999999,30.375286,0 -90.043266,30.396654,0 -90.06004299999999,30.39676499999999,0 -90.06043200000001,30.396358,0 -90.06094400000001,30.39558,0 -90.067734,30.397997,0 -90.06854199999999,30.398209,0 -90.079826,30.398024,0 -90.08467899999999,30.396729,0 -90.08824199999999,30.39584,0 -90.08601400000001,30.402872,0 -90.08416699999999,30.413828,0 -90.083519,30.417381,0 -90.08463299999998,30.42445,0 -90.084473,30.429234,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Our Lady of the Lake Parish</name>
+		<styleUrl>#style84</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.971878,30.402239,0 -89.97410600000001,30.258667,0 -89.97788199999999,30.258074,0 -89.98337600000001,30.260151,0 -89.98783899999999,30.264894,0 -89.98767100000001,30.268007,0 -89.985268,30.278534,0 -89.986465,30.290392,0 -89.992645,30.301952,0 -90.00174700000001,30.311438,0 -90.01033,30.317219,0 -90.02749600000001,30.322996,0 -90.036766,30.324776,0 -90.03968,30.324923,0 -90.04208400000002,30.327147,0 -90.04483,30.333666,0 -90.053246,30.343592,0 -90.061829,30.348925,0 -90.07675899999998,30.356182,0 -90.088776,30.361366,0 -90.09392500000001,30.364328,0 -90.08841700000001,30.39584899999999,0 -90.07975,30.397923,0 -90.06854199999999,30.39817,0 -90.06094400000001,30.39558,0 -90.060089,30.39676499999999,0 -90.04339599999999,30.396618,0 -90.05454999999999,30.375366,0 -90.05476399999999,30.374182,0 -90.037727,30.380772,0 -90.003021,30.39274,0 -89.997612,30.394592,0 -89.993408,30.395407,0 -89.976837,30.40192,0 -89.971878,30.402239,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Luke the Evangelist Parish</name>
+		<styleUrl>#style65</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.740623,30.353298,0 -89.73522199999999,30.353483,0 -89.72925600000001,30.350002,0 -89.72281599999999,30.34852,0 -89.716469,30.347706,0 -89.71333300000001,30.345001,0 -89.706467,30.334482,0 -89.63027200000001,30.334555,0 -89.63284299999999,30.328182,0 -89.62940999999999,30.321367,0 -89.62666299999999,30.314848,0 -89.64160200000001,30.303881,0 -89.641289,30.294142,0 -89.64814800000001,30.290882,0 -89.64574399999999,30.287916,0 -89.638885,30.288214,0 -89.630302,30.277245,0 -89.63304100000001,30.268644,0 -89.625832,30.265383,0 -89.625832,30.261826,0 -89.631332,30.260639,0 -89.628922,30.253523,0 -89.615189,30.24610699999999,0 -89.615875,30.239059,0 -89.66896800000001,30.231211,0 -89.67334,30.230618,0 -89.67797899999999,30.228245,0 -89.692825,30.229727,0 -89.696602,30.233583,0 -89.699608,30.237959,0 -89.700722,30.242556,0 -89.709389,30.25590100000001,0 -89.713684,30.258495,0 -89.741508,30.267859,0 -89.751289,30.269489,0 -89.75496699999999,30.270727,0 -89.74202,30.3064,0 -89.73741099999999,30.321709,0 -89.740623,30.353298,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Margaret Mary Parish</name>
+		<styleUrl>#style31</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.75488300000001,30.270727,0 -89.761658,30.273127,0 -89.766762,30.277018,0 -89.768265,30.2775,0 -89.78582,30.277834,0 -89.785042,30.276352,0 -89.78891,30.27383,0 -89.790283,30.273905,0 -89.793716,30.271645,0 -89.79933200000001,30.275831,0 -89.80281100000001,30.277536,0 -89.80740400000001,30.277575,0 -89.80727400000001,30.277945,0 -89.79924800000001,30.291582,0 -89.79920199999999,30.294003,0 -89.813232,30.29845,0 -89.813248,30.328457,0 -89.812134,30.332605,0 -89.810928,30.336086,0 -89.810158,30.337421,0 -89.811699,30.33979,0 -89.811531,30.34379,0 -89.738831,30.34379,0 -89.737976,30.336754,0 -89.737801,30.320751,0 -89.73841899999999,30.315439,0 -89.75488300000001,30.270727,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. John of the Cross Parish</name>
+		<styleUrl>#style92</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.948509,30.25901,0 -89.948509,30.26042,0 -89.94825,30.2619,0 -89.95049299999999,30.2642,0 -89.95255299999999,30.26442,0 -89.955551,30.26442,0 -89.956413,30.267241,0 -89.95461299999999,30.269461,0 -89.955032,30.27235,0 -89.953491,30.27354,0 -89.949799,30.27532,0 -89.95255299999999,30.278509,0 -89.953056,30.281099,0 -89.95049299999999,30.282061,0 -89.94534299999999,30.281469,0 -89.9431,30.283251,0 -89.942673,30.285469,0 -89.94104,30.28614,0 -89.938377,30.28466,0 -89.93710299999999,30.2854,0 -89.937202,30.28787,0 -89.93325,30.29068,0 -89.93289900000001,30.29335,0 -89.929642,30.299431,0 -89.930328,30.30209899999999,0 -89.92775,30.30373000000001,0 -89.925873,30.30595,0 -89.926903,30.310249,0 -89.928596,30.30941,0 -89.92929100000001,30.31008,0 -89.929108,30.311781,0 -89.92997,30.31163,0 -89.93074,30.310369,0 -89.93177,30.31082,0 -89.931091,30.31267,0 -89.931862,30.31282,0 -89.93254899999999,30.31156,0 -89.933228,30.311781,0 -89.932892,30.31312,0 -89.934692,30.31237,0 -89.935379,30.31312,0 -89.935593,30.313959,0 -89.937302,30.31407,0 -89.93911,30.315769,0 -89.93911,30.31674,0 -89.93849899999999,30.317249,0 -89.939491,30.317591,0 -89.939323,30.317989,0 -89.938293,30.31855,0 -89.93892700000001,30.31937,0 -89.940521,30.31855,0 -89.941422,30.31992,0 -89.93988,30.32037,0 -89.940308,30.32074,0 -89.94117,30.32085,0 -89.941643,30.321859,0 -89.94302399999999,30.322229,0 -89.943962,30.323561,0 -89.942329,30.32564,0 -89.942673,30.32666,0 -89.94426,30.327591,0 -89.94407699999999,30.32803,0 -89.9431,30.3277,0 -89.942932,30.32826,0 -89.943703,30.32926,0 -89.941643,30.330151,0 -89.942284,30.3304,0 -89.94158899999999,30.33115,0 -89.941422,30.33263,0 -89.940262,30.332029,0 -89.93905599999999,30.333031,0 -89.938423,30.33237099999999,0 -89.937653,30.3337,0 -89.936317,30.33407,0 -89.93656900000001,30.33448,0 -89.937523,30.33555,0 -89.937263,30.33581,0 -89.936531,30.33511,0 -89.93486,30.335699,0 -89.934898,30.337,0 -89.935112,30.337629,0 -89.93403600000001,30.33803,0 -89.934433,30.338961,0 -89.933907,30.339781,0 -89.934601,30.34059,0 -89.935204,30.341961,0 -89.935669,30.34218,0 -89.935242,30.34341,0 -89.933998,30.345289,0 -89.933273,30.34663,0 -89.933868,30.348261,0 -89.933357,30.34985,0 -89.931602,30.351549,0 -89.93171700000001,30.353399,0 -89.93038900000001,30.35507,0 -89.92965700000001,30.35663,0 -89.929283,30.357071,0 -89.92318,30.353661,0 -89.89877300000001,30.340811,0 -89.885757,30.33444,0 -89.83577,30.3167,0 -89.835892,30.316179,0 -89.835983,30.31488,0 -89.835548,30.3137,0 -89.834953,30.31385,0 -89.834183,30.31325,0 -89.834129,30.312851,0 -89.833748,30.31288,0 -89.833572,30.312099,0 -89.832443,30.31134,0 -89.832413,30.31102,0 -89.833572,30.310949,0 -89.833099,30.30978,0 -89.833443,30.309759,0 -89.834244,30.31012,0 -89.833618,30.30884,0 -89.833961,30.30839,0 -89.833511,30.308001,0 -89.833771,30.306629,0 -89.832497,30.305929,0 -89.832047,30.30612899999999,0 -89.83178700000001,30.30574,0 -89.831879,30.30526,0 -89.831619,30.304779,0 -89.832069,30.30411,0 -89.831863,30.30332,0 -89.831383,30.30323,0 -89.830528,30.302629,0 -89.830589,30.3018,0 -89.832626,30.30191,0 -89.89031199999999,30.30826,0 -89.889847,30.25559,0 -89.89465300000001,30.25737,0 -89.933098,30.24966,0 -89.940659,30.256479,0 -89.948509,30.25901,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Resurrection of Our Lord Parish</name>
+		<styleUrl>#style20</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.99369,30.02997,0 -89.976311,30.037073,0 -89.96523999999999,30.04339,0 -89.939232,30.06003,0 -89.93871300000001,30.045839,0 -89.93948399999999,30.032829,0 -89.939308,30.01738,0 -89.93956799999999,30.01158,0 -89.938889,30.00593,0 -89.962486,30.001209,0 -89.986183,29.99976,0 -89.988541,30.019159,0 -89.98902099999999,30.024811,0 -89.99202,30.027189,0 -89.99369,30.02997,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Transfiguration of the Lord Parish</name>
+		<styleUrl>#style76</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.08509799999999,29.999319,0 -90.085289,30.00573,0 -90.08489999999999,30.01082,0 -90.08312999999998,30.02087,0 -90.07047300000001,30.021469,0 -90.07115899999999,30.023291,0 -90.07102999999999,30.023809,0 -90.07196,30.02696,0 -90.073677,30.02808,0 -90.07328800000001,30.0291,0 -90.07479900000001,30.032909,0 -90.04377000000001,30.035509,0 -90.03768199999999,30.032909,0 -90.0354,30.0315,0 -90.04312899999998,30.029791,0 -90.04776,30.027109,0 -90.04663799999999,30.01255,0 -90.05574,30.01206,0 -90.05532100000001,30.00839,0 -90.062355,30.007942,0 -90.06446099999999,30.00779,0 -90.064499,30.005779,0 -90.069267,30.00552,0 -90.068748,29.99527,0 -90.074203,30.000019,0 -90.08509799999999,29.999319,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Peter and Paul Parish</name>
+		<styleUrl>#style48</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.835701,30.31666,0 -89.83596,30.314734,0 -89.835548,30.313751,0 -89.834991,30.313936,0 -89.834114,30.313251,0 -89.834114,30.312918,0 -89.833771,30.312918,0 -89.833534,30.312122,0 -89.832397,30.31138,0 -89.832443,30.311066,0 -89.833557,30.310936,0 -89.833084,30.309807,0 -89.833511,30.309769,0 -89.834198,30.310122,0 -89.833595,30.308844,0 -89.833923,30.308397,0 -89.833511,30.308008,0 -89.833794,30.30662,0 -89.832458,30.305952,0 -89.832077,30.306137,0 -89.831818,30.305805,0 -89.831886,30.305286,0 -89.831665,30.304842,0 -89.832008,30.304155,0 -89.831841,30.303358,0 -89.831429,30.303267,0 -89.830505,30.302673,0 -89.830597,30.30184,0 -89.833107,30.301952,0 -89.835724,30.294397,0 -89.832077,30.292471,0 -89.828773,30.291025,0 -89.825729,30.289284,0 -89.80435900000001,30.282909,0 -89.79924800000001,30.291618,0 -89.799294,30.293991,0 -89.81323999999999,30.298512,0 -89.813248,30.328457,0 -89.810928,30.336605,0 -89.810242,30.337273,0 -89.811874,30.33979,0 -89.811615,30.343864,0 -89.738831,30.343864,0 -89.74054700000001,30.35342,0 -89.73539700000001,30.35356700000001,0 -89.729393,30.350161,0 -89.716431,30.347643,0 -89.713081,30.344902,0 -89.706299,30.334606,0 -89.630257,30.334827,0 -89.630768,30.337643,0 -89.634888,30.343494,0 -89.636696,30.344681,0 -89.636436,30.347347,0 -89.637894,30.34779199999999,0 -89.639954,30.346235,0 -89.64167,30.34631,0 -89.642357,30.347569,0 -89.64167,30.348827,0 -89.642532,30.349272,0 -89.64476000000001,30.348013,0 -89.645706,30.349197,0 -89.64640799999999,30.35248,0 -89.650696,30.354553,0 -89.652069,30.35648,0 -89.652931,30.354553,0 -89.65430499999999,30.354553,0 -89.654816,30.35648,0 -89.656876,30.356922,0 -89.658249,30.360035,0 -89.659279,30.361811,0 -89.658936,30.364033,0 -89.660828,30.364328,0 -89.658936,30.367292,0 -89.65876799999999,30.369513,0 -89.661514,30.371141,0 -89.662025,30.371883,0 -89.660309,30.373363,0 -89.661514,30.374252,0 -89.663574,30.374697,0 -89.664772,30.375586,0 -89.666145,30.378103,0 -89.664604,30.379583,0 -89.669067,30.380917,0 -89.673012,30.389803,0 -89.673874,30.393059,0 -89.676102,30.393354,0 -89.679878,30.402388,0 -89.683655,30.405941,0 -89.684174,30.410086,0 -89.68383,30.412455,0 -89.6828,30.413343,0 -89.680222,30.411566,0 -89.67868,30.414083,0 -89.679192,30.416897,0 -89.677994,30.418819,0 -89.679878,30.420448,0 -89.681084,30.424444,0 -89.67868,30.426962,0 -89.680397,30.426962,0 -89.680908,30.431253,0 -89.681427,30.434214,0 -89.683311,30.434214,0 -89.683655,30.437025,0 -89.68486,30.440134,0 -89.6828,30.442501,0 -89.6828,30.444721,0 -89.89366099999999,30.444429,0 -89.891541,30.337517,0 -89.835701,30.31666,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Genevieve Parish</name>
+		<styleUrl>#style63</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.807327,30.277548,0 -89.802773,30.277622,0 -89.793762,30.271618,0 -89.796684,30.27132,0 -89.799339,30.272581,0 -89.801056,30.274435,0 -89.804489,30.273323,0 -89.806122,30.269245,0 -89.805862,30.267319,0 -89.806984,30.265984,0 -89.807838,30.262871,0 -89.812645,30.261091,0 -89.818054,30.260349,0 -89.82260100000001,30.261314,0 -89.826553,30.260719,0 -89.82827,30.260054,0 -89.83058200000001,30.260498,0 -89.836853,30.257311,0 -89.83831000000001,30.255234,0 -89.84122499999999,30.255753,0 -89.84431499999999,30.254345,0 -89.84526099999999,30.251972,0 -89.84380299999999,30.250044,0 -89.84440600000001,30.249376,0 -89.84921300000001,30.249451,0 -89.84998299999999,30.251528,0 -89.85178399999999,30.251379,0 -89.852814,30.249006,0 -89.85410299999999,30.248562,0 -89.85916899999999,30.251379,0 -89.859421,30.25264,0 -89.85865,30.254641,0 -89.85993999999999,30.255308,0 -89.862854,30.253901,0 -89.865005,30.250118,0 -89.868179,30.249748,0 -89.877876,30.249599,0 -89.889809,30.255606,0 -89.890839,30.308229,0 -89.833153,30.301956,0 -89.83577,30.294436,0 -89.825897,30.289396,0 -89.80482499999999,30.282873,0 -89.807327,30.277548,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Gabriel the Archangel Parish</name>
+		<styleUrl>#style42</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.04432699999998,29.98579,0 -90.022057,29.980881,0 -90.020432,29.99081,0 -90.031853,30.0231,0 -90.03524,30.03146,0 -90.044121,30.028931,0 -90.04750799999999,30.027149,0 -90.04432699999998,29.98579,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sacred Heart Parish</name>
+		<styleUrl>#style53</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.973923,30.258867,0 -89.972244,30.402876,0 -89.94561,30.404608,0 -89.9384,30.408606,0 -89.93486799999999,30.414135,0 -89.931175,30.417318,0 -89.92749000000001,30.41961299999999,0 -89.91332199999999,30.433969,0 -89.940445,30.440556,0 -89.940117,30.523569,0 -89.89514200000001,30.524162,0 -89.891914,30.338005,0 -89.92920700000001,30.357271,0 -89.93169399999999,30.353495,0 -89.93161000000001,30.351643,0 -89.93383799999999,30.349197,0 -89.93375399999999,30.347422,0 -89.93341100000001,30.346458,0 -89.93589799999999,30.342236,0 -89.934952,30.341347,0 -89.93409699999999,30.339865,0 -89.93452499999999,30.338755,0 -89.934181,30.33808700000001,0 -89.935211,30.337568,0 -89.934952,30.335791,0 -89.936584,30.335197,0 -89.937271,30.335716,0 -89.93779000000001,30.33549500000001,0 -89.93641700000001,30.334234,0 -89.93779000000001,30.33386399999999,0 -89.93847700000001,30.332382,0 -89.93916299999999,30.33305,0 -89.940361,30.332235,0 -89.94130699999999,30.332531,0 -89.941734,30.33112300000001,0 -89.94233699999999,30.330679,0 -89.941475,30.33023499999999,0 -89.943878,30.329494,0 -89.94302399999999,30.328161,0 -89.943878,30.327938,0 -89.944397,30.327419,0 -89.942505,30.326384,0 -89.94396999999999,30.323864,0 -89.94302399999999,30.322456,0 -89.941734,30.321863,0 -89.941391,30.320974,0 -89.94001799999999,30.320604,0 -89.941475,30.319862,0 -89.940445,30.318604,0 -89.93890399999999,30.319344,0 -89.938301,30.318529,0 -89.939674,30.317862,0 -89.938728,30.317122,0 -89.939331,30.315714,0 -89.937355,30.314232,0 -89.93581399999999,30.313787,0 -89.935211,30.312305,0 -89.93306699999999,30.31312,0 -89.933235,30.311935,0 -89.932121,30.311638,0 -89.93161000000001,30.312675,0 -89.930832,30.312305,0 -89.93177799999999,30.310453,0 -89.93040499999999,30.31023,0 -89.92989300000001,30.311489,0 -89.929115,30.311563,0 -89.92955000000001,30.310156,0 -89.928864,30.309416,0 -89.92714700000001,30.310081,0 -89.926025,30.306154,0 -89.927834,30.303858,0 -89.93048899999999,30.302153,0 -89.929802,30.299412,0 -89.933151,30.293409,0 -89.93341100000001,30.290741,0 -89.93718699999999,30.287998,0 -89.937271,30.285553,0 -89.93856,30.284737,0 -89.94088000000001,30.286072,0 -89.94268,30.285479,0 -89.943192,30.283329,0 -89.945427,30.281698,0 -89.95049299999999,30.282068,0 -89.952896,30.281179,0 -89.952721,30.27866,0 -89.949974,30.27547300000001,0 -89.954956,30.272507,0 -89.954781,30.269468,0 -89.956497,30.267319,0 -89.95564299999999,30.264353,0 -89.95049299999999,30.264132,0 -89.94843299999999,30.261831,0 -89.94886,30.259237,0 -89.956413,30.261908,0 -89.973923,30.258867,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Jane De Chantel Parish</name>
+		<styleUrl>#style9</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.02906,30.67725,0 -90.02906,30.54014,0 -90.05789899999999,30.51412,0 -90.056297,30.459921,0 -90.03363799999998,30.45932,0 -90.02265199999999,30.458731,0 -90.011673,30.46287,0 -89.992439,30.45459,0 -89.972527,30.449261,0 -89.95674099999999,30.445122,0 -89.940262,30.440977,0 -89.94162799999999,30.523821,0 -89.89563,30.52323,0 -89.893112,30.445471,0 -89.685738,30.44429,0 -89.682877,30.4524,0 -89.69455000000001,30.461281,0 -89.706909,30.4666,0 -89.70760300000001,30.47666,0 -89.715149,30.478439,0 -89.72202299999999,30.487909,0 -89.741241,30.49737,0 -89.749481,30.50211,0 -89.757721,30.499741,0 -89.754982,30.50802,0 -89.758408,30.518669,0 -89.76870700000001,30.51453,0 -89.772141,30.52104,0 -89.769402,30.529909,0 -89.777641,30.532869,0 -89.772141,30.53878,0 -89.779701,30.5441,0 -89.800301,30.548241,0 -89.79273999999999,30.55002,0 -89.7948,30.55652,0 -89.80441999999999,30.560659,0 -89.796181,30.56362,0 -89.78724699999999,30.56953,0 -89.79892,30.57012,0 -89.80991400000001,30.56953,0 -89.811279,30.580759,0 -89.817459,30.588449,0 -89.809219,30.589041,0 -89.819519,30.595539,0 -89.815399,30.600861,0 -89.82501999999999,30.605591,0 -89.815399,30.607361,0 -89.822273,30.61031,0 -89.823639,30.61977,0 -89.829819,30.620951,0 -89.823639,30.627451,0 -89.815399,30.63868,0 -89.82295999999999,30.641041,0 -89.824333,30.649309,0 -89.832573,30.655809,0 -89.842178,30.655809,0 -89.844933,30.661711,0 -89.851112,30.664671,0 -89.838753,30.66939,0 -89.838348,30.673731,0 -89.841087,30.67402999999999,0 -89.843147,30.669889,0 -89.847618,30.67078,0 -89.845207,30.673731,0 -89.83869199999999,30.67728,0 -89.846191,30.66036,0 -89.850311,30.661539,0 -89.986954,30.662722,0 -90.02906,30.67725,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Holy Family Parish</name>
+		<styleUrl>#style36</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.369736,29.906904,0 -90.36721,29.743856,0 -90.36068700000001,29.739235,0 -90.36206100000001,29.730591,0 -90.35880299999999,29.718962,0 -90.35948900000001,29.70718400000001,0 -90.34884599999999,29.695704,0 -90.34610000000001,29.701071,0 -90.350044,29.70509699999999,0 -90.351418,29.712702,0 -90.34626799999999,29.723583,0 -90.334084,29.730143,0 -90.29511299999999,29.753096,0 -90.27846499999998,29.760996,0 -90.25288399999999,29.768147,0 -90.237289,29.781155,0 -90.232826,29.788008,0 -90.21154,29.799032,0 -90.193687,29.803501,0 -90.17240099999999,29.805586,0 -90.17206599999999,29.823757,0 -90.240723,29.852346,0 -90.24258399999998,29.868231,0 -90.241043,29.872847,0 -90.24447600000002,29.876417,0 -90.24395800000001,29.880884,0 -90.25546300000001,29.889219,0 -90.25975,29.897255,0 -90.265762,29.899635,0 -90.268677,29.91407,0 -90.32852200000002,29.917645,0 -90.33174099999999,29.917273,0 -90.369736,29.906904,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Mark Parish</name>
+		<styleUrl>#style28</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.273247,29.964569,0 -90.27187300000001,29.943567,0 -90.27201100000002,29.943104,0 -90.27246099999999,29.942657,0 -90.27304100000001,29.942322,0 -90.274368,29.941885,0 -90.27475,29.941727,0 -90.27503999999999,29.941439,0 -90.27546700000002,29.940937,0 -90.27597,29.94063,0 -90.27753399999999,29.940287,0 -90.28196,29.93936,0 -90.33313800000001,29.92837,0 -90.333412,29.930656,0 -90.32970400000001,29.931364,0 -90.32916299999999,29.93129,0 -90.321693,29.93326,0 -90.32115899999999,29.933224,0 -90.31887100000002,29.934343,0 -90.317108,29.935869,0 -90.31397200000001,29.937765,0 -90.313332,29.938622,0 -90.312691,29.93877,0 -90.303848,29.946468,0 -90.303246,29.947582,0 -90.300972,29.950373,0 -90.295998,29.955093,0 -90.290543,29.95859,0 -90.282387,29.961714,0 -90.275352,29.963833,0 -90.27423899999999,29.963982,0 -90.273247,29.964569,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Bonaventure Parish</name>
+		<styleUrl>#style54</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.276466,29.940451,0 -90.26496899999999,29.90214,0 -90.26522799999999,29.900129,0 -90.26403000000002,29.89901,0 -90.25955999999999,29.897301,0 -90.25466900000001,29.88941,0 -90.24334,29.881081,0 -90.24446099999999,29.87661,0 -90.240852,29.872971,0 -90.24076100000001,29.868059,0 -90.237587,29.86813,0 -90.230637,29.86657,0 -90.21820800000002,29.86034,0 -90.204819,29.85438,0 -90.19194000000002,29.84277000000001,0 -90.18386799999999,29.832939,0 -90.178482,29.916964,0 -90.205482,29.918381,0 -90.20839699999999,29.918461,0 -90.21272999999999,29.91935,0 -90.21951300000002,29.92169,0 -90.257622,29.938881,0 -90.264229,29.94129,0 -90.26947,29.9417,0 -90.276466,29.940451,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Rosalie Parish</name>
+		<styleUrl>#style99</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.08936300000001,29.904469,0 -90.09073600000002,29.909889,0 -90.088936,29.910542,0 -90.08669999999999,29.91094,0 -90.08617399999999,29.910959,0 -90.08577,29.911276,0 -90.08551000000001,29.911295,0 -90.085266,29.911415,0 -90.08506,29.911312,0 -90.084602,29.910597,0 -90.08425099999999,29.909992,0 -90.08305399999999,29.907101,0 -90.080704,29.900286,0 -90.07055700000001,29.870983,0 -90.07527899999999,29.869724,0 -90.079926,29.871634,0 -90.08086400000001,29.87208,0 -90.081329,29.872217,0 -90.08936300000001,29.904469,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Cletus Parish</name>
+		<styleUrl>#style93</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.05162799999999,29.903908,0 -90.016953,29.877939,0 -90.024208,29.86537,0 -90.02282700000001,29.864811,0 -90.022919,29.86265,0 -90.023308,29.86157,0 -90.02514600000001,29.86001,0 -90.025841,29.85935,0 -90.025841,29.85644,0 -90.02652700000002,29.85466,0 -90.02851099999999,29.85235,0 -90.031082,29.850189,0 -90.03494299999998,29.848181,0 -90.04142,29.8456,0 -90.04312899999998,29.849991,0 -90.04583700000001,29.856541,0 -90.047043,29.86116,0 -90.04853799999998,29.865629,0 -90.047813,29.874331,0 -90.052711,29.88249,0 -90.05915099999999,29.892611,0 -90.062691,29.8981,0 -90.05162799999999,29.903908,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Joseph Parish</name>
+		<styleUrl>#style101</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.054382,29.940481,0 -90.035538,29.922926,0 -90.035797,29.921028,0 -90.035454,29.91463299999999,0 -90.035538,29.912809,0 -90.037384,29.910242,0 -90.03850599999998,29.894058,0 -90.05167400000001,29.903969,0 -90.06259900000001,29.898184,0 -90.07364699999999,29.915487,0 -90.069061,29.917234,0 -90.065971,29.919245,0 -90.06463599999998,29.91995,0 -90.06433900000002,29.920397,0 -90.063652,29.920807,0 -90.06352199999999,29.921289,0 -90.06270600000001,29.922033,0 -90.06262200000002,29.922443,0 -90.061592,29.92367,0 -90.061035,29.923559,0 -90.058159,29.926907,0 -90.057602,29.928505,0 -90.05541199999999,29.931965,0 -90.055672,29.932447,0 -90.054939,29.935238,0 -90.054596,29.935238,0 -90.054382,29.940481,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Our Lady of Angels Parish</name>
+		<styleUrl>#style87</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.180542,29.930243,0 -90.179817,29.92868,0 -90.179131,29.92775,0 -90.179001,29.927303,0 -90.178658,29.925444,0 -90.178574,29.919977,0 -90.17852800000001,29.917002,0 -90.20921300000001,29.918564,0 -90.21436300000001,29.919828,0 -90.22058899999999,29.922209,0 -90.258652,29.93939,0 -90.264702,29.941399,0 -90.27027899999999,29.941771,0 -90.276588,29.940619,0 -90.275497,29.941195,0 -90.27470399999999,29.94179,0 -90.272385,29.942682,0 -90.271851,29.943462,0 -90.27223199999999,29.94823999999999,0 -90.273239,29.964695,0 -90.273026,29.964657,0 -90.267426,29.965549,0 -90.26335100000001,29.96592100000001,0 -90.259598,29.966051,0 -90.25706499999998,29.966478,0 -90.25500500000001,29.966349,0 -90.250885,29.965605,0 -90.250755,29.965271,0 -90.248909,29.964825,0 -90.24302699999998,29.96291,0 -90.24041,29.96159,0 -90.23234600000001,29.956161,0 -90.22891199999999,29.952053,0 -90.22719599999999,29.949022,0 -90.22689100000001,29.947683,0 -90.22550200000001,29.945862,0 -90.22380099999999,29.938108,0 -90.22419000000001,29.938015,0 -90.22086299999998,29.929052,0 -90.21938299999999,29.927025,0 -90.21740699999998,29.925035,0 -90.21547700000001,29.923416,0 -90.21305099999999,29.921911,0 -90.21060900000001,29.921,0 -90.208763,29.92051500000001,0 -90.204193,29.920294,0 -90.19902,29.921019,0 -90.196083,29.921762,0 -90.191856,29.923548,0 -90.18454,29.927361,0 -90.180542,29.930243,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Joseph the Worker Parish</name>
+		<styleUrl>#style8</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.123299,29.906382,0 -90.12044499999999,29.905487,0 -90.11586800000001,29.904688,0 -90.114197,29.904652,0 -90.11351000000002,29.904781,0 -90.112953,29.904707,0 -90.11254099999999,29.904856,0 -90.111732,29.904762,0 -90.106903,29.905096,0 -90.106606,29.89419699999999,0 -90.10582700000001,29.878941,0 -90.109886,29.878904,0 -90.11414299999998,29.880505,0 -90.114159,29.878012,0 -90.113747,29.876951,0 -90.112183,29.87496,0 -90.107376,29.83934,0 -90.13389599999999,29.837778,0 -90.123299,29.906382,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Immaculata Conception Parish</name>
+		<styleUrl>#style74</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.10681200000002,29.90509,0 -90.104584,29.9058,0 -90.10375999999999,29.905649,0 -90.10256200000001,29.905991,0 -90.10218000000002,29.906281,0 -90.09073600000002,29.909889,0 -90.087288,29.896179,0 -90.0812,29.872131,0 -90.08883700000001,29.873993,0 -90.09414700000001,29.875179,0 -90.097672,29.875031,0 -90.09860999999999,29.879049,0 -90.10581999999999,29.87896,0 -90.10681200000002,29.90509,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Christ the King Parish</name>
+		<styleUrl>#style23</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.03551499999999,29.922859,0 -90.00798,29.897434,0 -90.007812,29.895945,0 -90.007896,29.894457,0 -90.016907,29.878012,0 -90.03845199999999,29.894234,0 -90.03750600000001,29.910082,0 -90.03544600000001,29.91276,0 -90.03578900000001,29.921391,0 -90.03551499999999,29.922859,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Martha Parish</name>
+		<styleUrl>#style40</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.084068,29.910269,0 -90.084068,29.911385,0 -90.083298,29.912054,0 -90.079735,29.91317,0 -90.07605,29.914583,0 -90.073685,29.915476,0 -90.06630699999999,29.904018,0 -90.04832500000001,29.875481,0 -90.047768,29.874214,0 -90.048576,29.86573,0 -90.04677599999999,29.860447,0 -90.04471599999999,29.853672,0 -90.041496,29.845594,0 -90.04286999999999,29.843994,0 -90.04502100000002,29.841835,0 -90.04866800000001,29.840235,0 -90.05197099999999,29.838299,0 -90.05403099999999,29.838486,0 -90.056602,29.837294,0 -90.05750999999998,29.837404,0 -90.084068,29.910269,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Holy Name of Mary Parish</name>
+		<styleUrl>#style17</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.05441999999999,29.94047,0 -90.05535899999998,29.943481,0 -90.055916,29.947721,0 -90.055573,29.948427,0 -90.056259,29.950361,0 -90.055702,29.952147,0 -90.055916,29.954117,0 -90.05540499999999,29.955418,0 -90.05287199999999,29.95579,0 -90.05175800000001,29.95560499999999,0 -90.05030100000002,29.955938,0 -90.049606,29.956123,0 -90.04746200000001,29.956161,0 -90.04347199999998,29.955679,0 -90.03909299999999,29.954599,0 -90.03145600000001,29.951588,0 -90.026566,29.949579,0 -90.02467300000001,29.94854,0 -90.022362,29.947645,0 -90.021805,29.946978,0 -90.01377899999999,29.943035,0 -90.012787,29.942366,0 -90.01339,29.936489,0 -90.012962,29.936304,0 -90.014336,29.921539,0 -90.014717,29.92087,0 -90.01746400000002,29.918898,0 -90.018242,29.90691899999999,0 -90.05441999999999,29.94047,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. John Bosco Parish</name>
+		<styleUrl>#style73</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.089348,29.87428999999999,0 -90.08141299999998,29.872318,0 -90.075317,29.869713,0 -90.070511,29.870829,0 -90.061279,29.84444,0 -90.06137100000001,29.840979,0 -90.06253100000002,29.838261,0 -90.06518599999998,29.835581,0 -90.06746699999999,29.833385,0 -90.06939699999998,29.830257,0 -90.069908,29.826796,0 -90.06905400000001,29.822365,0 -90.069649,29.81868,0 -90.07286800000001,29.808775,0 -90.07192199999999,29.805199,0 -90.069008,29.800879,0 -90.06540699999999,29.790602,0 -90.064201,29.786577,0 -90.065231,29.782108,0 -90.068062,29.779129,0 -90.08085600000001,29.797899,0 -90.08506,29.840794,0 -90.085487,29.846228,0 -90.08617399999999,29.8533,0 -90.087379,29.867443,0 -90.087975,29.867889,0 -90.089348,29.87428999999999,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Visitation of our Lady Parish</name>
+		<styleUrl>#style30</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.10581999999999,29.878969,0 -90.098572,29.879089,0 -90.098007,29.875179,0 -90.092613,29.875031,0 -90.087631,29.873989,0 -90.085571,29.87347,0 -90.08454100000002,29.873026,0 -90.08325200000002,29.879869,0 -90.08141299999998,29.872311,0 -90.089432,29.874319,0 -90.08789099999998,29.86762,0 -90.08733400000001,29.86721,0 -90.085052,29.84094,0 -90.10733,29.839359,0 -90.112183,29.87499,0 -90.11364,29.87685,0 -90.114113,29.877859,0 -90.114113,29.88043,0 -90.109993,29.878901,0 -90.10581999999999,29.878969,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Our Lady of Prompt Succor Parish</name>
+		<styleUrl>#style24</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.180077,29.930243,0 -90.174835,29.933962,0 -90.16325399999999,29.945192,0 -90.158096,29.949356,0 -90.152519,29.952257,0 -90.14839899999998,29.953596,0 -90.14633899999998,29.952257,0 -90.14299800000001,29.946308,0 -90.14273800000001,29.937756,0 -90.143593,29.937756,0 -90.14342499999999,29.923473,0 -90.14067799999999,29.91633,0 -90.138184,29.913429,0 -90.13500999999999,29.911049,0 -90.123383,29.906473,0 -90.12518300000001,29.893862,0 -90.13638299999998,29.822178,0 -90.171577,29.824411,0 -90.18393700000001,29.829475,0 -90.18325,29.841761,0 -90.178482,29.917002,0 -90.178658,29.925928,0 -90.17908499999999,29.927788,0 -90.180077,29.929237,0 -90.180077,29.930243,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Holy Spirit Parish</name>
+		<styleUrl>#style86</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.01821099999999,29.90691899999999,0 -90.01744100000001,29.91889,0 -90.014717,29.92083,0 -90.014503,29.921181,0 -90.008324,29.91703,0 -90.00135,29.91283,0 -89.99996899999999,29.913759,0 -89.999634,29.913851,0 -89.993134,29.91361,0 -89.990044,29.913357,0 -89.986351,29.913206,0 -89.986649,29.91186,0 -89.98232299999999,29.912909,0 -89.979156,29.91123,0 -89.987587,29.90489,0 -89.989853,29.88945,0 -90.00206,29.897751,0 -90.001732,29.894291,0 -90.00775899999999,29.89559,0 -90.00798,29.897409,0 -90.01821099999999,29.90691899999999,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Our Lady of Perpetual Help Parish</name>
+		<styleUrl>#style35</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.979141,29.91082,0 -89.97287,29.90457,0 -89.95777099999999,29.902121,0 -89.95133199999999,29.899509,0 -89.944382,29.89683,0 -89.940437,29.895126,0 -89.934769,29.892448,0 -89.932877,29.890066,0 -89.932106,29.888058,0 -89.92944300000001,29.885008,0 -89.926445,29.880169,0 -89.922585,29.873619,0 -89.921806,29.872429,0 -89.920776,29.869972,0 -89.913147,29.8694,0 -89.917267,29.868731,0 -89.92388200000001,29.86932,0 -89.932121,29.871929,0 -89.95564299999999,29.88368,0 -89.961563,29.88517,0 -89.969971,29.883909,0 -89.973923,29.882641,0 -89.975891,29.87952,0 -89.980614,29.858231,0 -89.98284099999999,29.8519,0 -89.991173,29.842819,0 -89.99683400000001,29.837391,0 -90.00353200000001,29.82547,0 -90.00662199999998,29.81572,0 -90.012283,29.79896,0 -90.02034800000001,29.788309,0 -90.025589,29.77795,0 -90.027992,29.76939,0 -90.02739,29.758141,0 -90.02455900000001,29.75106,0 -90.00842299999999,29.73831,0 -90.00241099999998,29.733919,0 -89.995796,29.725941,0 -89.98542,29.705,0 -89.98114,29.697041,0 -89.97084,29.6866,0 -89.963463,29.67363,0 -89.96157100000001,29.652149,0 -89.95504800000001,29.643789,0 -89.92981,29.63245,0 -89.904747,29.616341,0 -89.98406199999999,29.5723,0 -89.98715199999999,29.574089,0 -89.987488,29.575741,0 -89.981827,29.57992,0 -89.984398,29.60141,0 -89.980797,29.607531,0 -90.08142100000001,29.770121,0 -90.071609,29.775591,0 -90.064049,29.784981,0 -90.06713899999998,29.796,0 -90.071609,29.80509,0 -90.072807,29.809259,0 -90.070061,29.818501,0 -90.069199,29.826241,0 -90.06971700000001,29.829809,0 -90.05753300000001,29.837561,0 -90.05290200000002,29.838301,0 -90.04396799999999,29.84202000000001,0 -90.041222,29.8459,0 -90.03383600000001,29.848721,0 -90.028183,29.8526,0 -90.025261,29.8584,0 -90.025093,29.86018899999999,0 -90.023201,29.86272,0 -90.023201,29.86525,0 -90.016327,29.8776,0 -90.007408,29.89546,0 -90.00190700000002,29.894569,0 -90.002083,29.897699,0 -89.98989899999999,29.88966,0 -89.987663,29.904539,0 -89.979141,29.91082,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Sacred Heart Norco Parish</name>
+		<styleUrl>#style77</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.393539,29.979887,0 -90.37663999999999,29.993174,0 -90.33184799999999,30.028723,0 -90.306961,30.053984,0 -90.311249,30.056065,0 -90.315872,30.05604200000001,0 -90.3181,30.055523,0 -90.323936,30.054482,0 -90.331924,30.053442,0 -90.345314,30.053665,0 -90.359131,30.056116,0 -90.36359400000001,30.057676,0 -90.36866000000001,30.056488,0 -90.37011699999999,30.056488,0 -90.37200200000001,30.058346,0 -90.375435,30.05946,0 -90.37766999999999,30.059311,0 -90.394234,30.069117,0 -90.40728,30.080183,0 -90.44916499999999,30.033901,0 -90.469337,30.031672,0 -90.470795,30.016066,0 -90.471222,30.012722,0 -90.470367,30.008263,0 -90.47087899999998,30.006479,0 -90.469337,30.005587,0 -90.468994,30.004396,0 -90.46547700000001,30.001499,0 -90.46023599999999,30.000383,0 -90.44264200000001,29.998972,0 -90.415092,29.996147,0 -90.40942399999999,29.994213,0 -90.40213,29.989456,0 -90.395607,29.983509,0 -90.393539,29.979887,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. David Parish</name>
+		<styleUrl>#style5</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.021973,29.980709,0 -90.02005800000002,29.979731,0 -90.006844,29.976749,0 -89.996742,29.973089,0 -90.00367,29.95705,0 -89.99884,29.9564,0 -89.992058,29.947941,0 -89.991257,29.947229,0 -89.995987,29.93939,0 -89.997398,29.94017,0 -90.006912,29.945391,0 -90.007317,29.945841,0 -90.03038000000001,29.955669,0 -90.021973,29.980709,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Blessed Francis Xavier Seelos Parish</name>
+		<styleUrl>#style44</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.05706000000001,29.97263299999999,0 -90.04901099999999,29.972967,0 -90.04785200000001,29.97267,0 -90.047577,29.973841,0 -90.02577200000002,29.968784,0 -90.03019700000002,29.955921,0 -90.05579400000001,29.959955,0 -90.05706000000001,29.97263299999999,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Pius X Parish</name>
+		<styleUrl>#style10</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.100266,29.777737,0 -90.07048,29.777065,0 -90.071938,29.775427,0 -90.081383,29.77021,0 -90.07374599999999,29.757992,0 -90.07253300000001,29.755932,0 -90.133736,29.75449,0 -90.135368,29.752552,0 -90.13639800000001,29.749796,0 -90.13562799999998,29.745474,0 -90.134682,29.741896,0 -90.14138,29.741152,0 -90.149017,29.743313,0 -90.15236700000001,29.743088,0 -90.15442700000001,29.741747,0 -90.15682999999999,29.754787,0 -90.15469399999999,29.764721,0 -90.15349599999999,29.77232,0 -90.15315200000001,29.77515,0 -90.152466,29.776194,0 -90.152466,29.777386,0 -90.100266,29.777737,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Joachim Parish</name>
+		<styleUrl>#style51</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.08519,29.840866,0 -90.13376600000001,29.838671,0 -90.13642900000002,29.822216,0 -90.16943399999998,29.824114,0 -90.16531400000001,29.820988,0 -90.163765,29.816668,0 -90.16497,29.81354,0 -90.168739,29.813391,0 -90.169601,29.812201,0 -90.168404,29.805796,0 -90.170464,29.801922,0 -90.16925799999999,29.798943,0 -90.162392,29.795666,0 -90.156555,29.789558,0 -90.15226699999998,29.777563,0 -90.100082,29.777714,0 -90.07055700000001,29.777117,0 -90.06849700000001,29.779575,0 -90.08076499999999,29.797602,0 -90.08519,29.840866,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Patrick Parish</name>
+		<styleUrl>#style85</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.70826700000001,29.498232,0 -89.753426,29.453972,0 -89.817413,29.396025,0 -89.84728200000001,29.318523,0 -89.833885,29.316427,0 -89.81397200000001,29.312237,0 -89.73603799999999,29.307148,0 -89.650902,29.2808,0 -89.58910400000001,29.247555,0 -89.50396000000001,29.225683,0 -89.48438299999999,29.214897,0 -89.46378300000001,29.199015,0 -89.451424,29.186426,0 -89.436668,29.15435,0 -89.330063,29.046926,0 -89.415207,28.950836,0 -89.426193,28.931608,0 -89.41744199999999,28.929234,0 -89.40679900000001,28.943356,0 -89.398613,28.935635,0 -89.304543,29.043743,0 -89.266777,29.055149,0 -89.166641,29.008501,0 -89.21745300000001,29.081736,0 -89.275131,29.18250099999999,0 -89.315529,29.244648,0 -89.349861,29.271605,0 -89.389977,29.323912,0 -89.41263600000001,29.344864,0 -89.440437,29.358929,0 -89.446281,29.36132,0 -89.455894,29.360125,0 -89.46049499999999,29.354843,0 -89.47199999999999,29.341974,0 -89.47611999999999,29.340179,0 -89.483841,29.340179,0 -89.491226,29.341677,0 -89.503265,29.346659,0 -89.522491,29.357431,0 -89.548592,29.364313,0 -89.560822,29.367838,0 -89.57403600000001,29.373671,0 -89.582359,29.37801,0 -89.59103399999999,29.385189,0 -89.5979,29.392069,0 -89.603989,29.399473,0 -89.607941,29.40568,0 -89.609398,29.411213,0 -89.609917,29.420483,0 -89.607941,29.427734,0 -89.603477,29.4382,0 -89.609314,29.446423,0 -89.614807,29.451654,0 -89.62357299999999,29.454142,0 -89.631989,29.454592,0 -89.648979,29.456085,0 -89.661339,29.458628,0 -89.673355,29.46490500000001,0 -89.686058,29.474171,0 -89.697906,29.486275,0 -89.70826700000001,29.498232,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Jude Parish</name>
+		<styleUrl>#style29</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.90465500000001,29.61632000000001,0 -89.881393,29.606619,0 -89.870926,29.603708,0 -89.855988,29.601692,0 -89.844658,29.598484,0 -89.814705,29.579676,0 -89.801231,29.572733,0 -89.788269,29.563477,0 -89.777283,29.553621,0 -89.76277899999999,29.53809,0 -89.75196099999999,29.531071,0 -89.736771,29.525169,0 -89.732224,29.523079,0 -89.722351,29.514713,0 -89.708275,29.498428,0 -89.816597,29.397005,0 -89.818909,29.399622,0 -89.82268500000001,29.400446,0 -89.825264,29.404408,0 -89.91428399999999,29.436787,0 -89.98020200000001,29.458313,0 -89.98569500000001,29.571844,0 -89.90465500000001,29.61632000000001,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Our Lady of Lourdes Parish, Violet</name>
+		<styleUrl>#style95</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.927025,29.925301,0 -89.922607,29.92956,0 -89.854973,29.996614,0 -89.853775,29.98650599999999,0 -89.85154,29.9758,0 -89.84742,29.965538,0 -89.84536,29.957508,0 -89.83815,29.945459,0 -89.837982,29.922104,0 -89.822357,29.909607,0 -89.815147,29.907673,0 -89.81068399999999,29.892939,0 -89.80811300000001,29.886837,0 -89.80896799999999,29.881479,0 -89.819267,29.881628,0 -89.842789,29.874334,0 -89.847595,29.876417,0 -89.871109,29.878948,0 -89.87101,29.87803299999999,0 -89.869553,29.876173,0 -89.869812,29.867838,0 -89.871185,29.867838,0 -89.871109,29.846792,0 -89.97753899999999,29.847984,0 -89.975723,29.851013,0 -89.973404,29.853695,0 -89.971436,29.865456,0 -89.971779,29.872005,0 -89.96946,29.87714,0 -89.967224,29.878407,0 -89.96302,29.878553,0 -89.958557,29.877661,0 -89.95014999999999,29.873047,0 -89.92208100000001,29.862181,0 -89.913414,29.862478,0 -89.906631,29.867018,0 -89.90370900000001,29.86821,0 -89.89959,29.875727,0 -89.899506,29.88488,0 -89.903023,29.896414,0 -89.903458,29.89954,0 -89.907921,29.906609,0 -89.91881600000001,29.919106,0 -89.927025,29.925301,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Thomas Parish</name>
+		<styleUrl>#style11</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.871307,29.84639200000001,0 -89.876122,29.789797,0 -89.874062,29.781155,0 -89.86891199999999,29.779665,0 -89.83766900000001,29.788605,0 -89.82152600000001,29.788902,0 -89.800301,29.731768,0 -89.64305899999999,29.655418,0 -89.5895,29.64587,0 -89.601974,29.58337,0 -89.530563,29.578592,0 -89.53743,29.437565,0 -89.511337,29.406464,0 -89.42894,29.389713,0 -89.30259700000001,29.384928,0 -89.254532,29.337051,0 -89.202347,29.351418,0 -89.14329499999999,29.292747,0 -89.08699,29.202881,0 -89.022446,29.225655,0 -89.000473,29.18250099999999,0 -89.066391,29.074535,0 -89.10884900000001,29.074354,0 -89.16584,29.011324,0 -89.250984,29.148743,0 -89.248924,29.161337,0 -89.269119,29.201113,0 -89.299683,29.239765,0 -89.351524,29.286789,0 -89.395126,29.339476,0 -89.41641199999999,29.355934,0 -89.445595,29.367306,0 -89.45760300000001,29.36611,0 -89.467911,29.35803,0 -89.47442599999999,29.347857,0 -89.48027,29.34606,0 -89.519402,29.363417,0 -89.557175,29.374487,0 -89.591499,29.394529,0 -89.600433,29.405298,0 -89.602486,29.418756,0 -89.601112,29.430717,0 -89.596992,29.445667,0 -89.6101,29.456518,0 -89.625893,29.461302,0 -89.648552,29.462498,0 -89.674644,29.47266,0 -89.697304,29.495375,0 -89.71584300000001,29.52107,0 -89.73575599999999,29.531227,0 -89.752174,29.538008,0 -89.77861,29.56608,0 -89.83113899999999,29.599819,0 -89.84522200000001,29.605492,0 -89.888824,29.616535,0 -89.93448600000001,29.643095,0 -89.94650300000001,29.645184,0 -89.954391,29.651749,0 -89.957481,29.674721,0 -89.99353000000001,29.734959,0 -90.012421,29.749266,0 -90.01963000000001,29.754929,0 -90.02066000000001,29.769533,0 -90.016541,29.780857,0 -90.00245700000002,29.804396,0 -89.994225,29.828524,0 -89.979797,29.844604,0 -89.977402,29.847879,0 -89.871307,29.84639200000001,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Our Lady of Prompt Succor Parish</name>
+		<styleUrl>#style50</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.995453,29.940195,0 -89.991119,29.947372,0 -89.99211099999999,29.948029,0 -89.998459,29.95636,0 -89.999062,29.95647,0 -90.001465,29.956507,0 -90.00348700000001,29.957251,0 -89.98494700000001,29.998146,0 -89.926582,30.006472,0 -89.919724,30.003796,0 -89.880112,29.971836,0 -89.92731499999999,29.925356,0 -89.92989300000001,29.92610000000001,0 -89.94259599999999,29.926544,0 -89.94474,29.926767,0 -89.947487,29.926025,0 -89.954178,29.925577,0 -89.961304,29.926323,0 -89.971176,29.928255,0 -89.97924,29.93093500000001,0 -89.983192,29.93309,0 -89.995453,29.940195,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Mary Queen of Vietnam Parish</name>
+		<styleUrl>#style39</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.94451100000001,30.075933,0 -89.94091,30.072702,0 -89.940544,30.072088,0 -89.93882000000001,30.046234,0 -89.939415,30.03093,0 -89.93943,30.005833,0 -89.926384,30.009399,0 -89.90887499999999,30.012966,0 -89.843842,30.021633,0 -89.82152600000001,30.042736,0 -89.813293,30.04541,0 -89.77381099999999,30.045115,0 -89.764191,30.044519,0 -89.751144,30.036793,0 -89.744286,30.028172,0 -89.737076,30.025793,0 -89.733643,30.021038,0 -89.71579,30.027281,0 -89.729179,30.045115,0 -89.73226200000001,30.054623,0 -89.728149,30.062052,0 -89.71818500000001,30.068293,0 -89.692436,30.072748,0 -89.68351699999999,30.076315,0 -89.680763,30.104832,0 -89.655418,30.121552,0 -89.62932600000001,30.148869,0 -89.63344600000001,30.154804,0 -89.658852,30.157181,0 -89.675331,30.169647,0 -89.687691,30.173208,0 -89.691811,30.166679,0 -89.72271000000001,30.156586,0 -89.741936,30.172615,0 -89.749489,30.170835,0 -89.745369,30.155993,0 -89.748116,30.147087,0 -89.790688,30.113235,0 -89.787941,30.107296,0 -89.834633,30.098387,0 -89.855232,30.126303,0 -89.860725,30.143524,0 -89.855232,30.15243,0 -89.861412,30.155993,0 -89.879265,30.148869,0 -89.88681800000001,30.140554,0 -89.94451100000001,30.075933,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. James Major Parish</name>
+		<styleUrl>#style49</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.044464,29.985804,0 -90.04541,29.985804,0 -90.045967,29.985542,0 -90.058159,29.984837,0 -90.060005,30.00814099999999,0 -90.055328,30.008436,0 -90.055756,30.012041,0 -90.04643999999999,30.012562,0 -90.044464,29.985804,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Raymond and St. Leo the Great Parish</name>
+		<styleUrl>#style79</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.060005,30.008177,0 -90.06471999999999,30.007954,0 -90.06455200000001,30.00576,0 -90.06931299999999,30.005539,0 -90.06875599999999,29.995317,0 -90.07421099999999,29.999964,0 -90.08528099999998,29.999294,0 -90.085022,29.996841,0 -90.08622700000001,29.99268,0 -90.08068799999999,29.992382,0 -90.081245,29.983759,0 -90.07669799999999,29.98398,0 -90.069489,29.979223,0 -90.07094600000002,29.981974,0 -90.05807500000002,29.982679,0 -90.060005,30.008177,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Louis Cathedral Parish</name>
+		<styleUrl>#style3</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.06294300000002,29.966726,0 -90.055984,29.961781,0 -90.05587800000001,29.96055399999999,0 -90.058907,29.95882599999999,0 -90.05935700000001,29.958509,0 -90.05950900000002,29.958658,0 -90.06073000000001,29.957506,0 -90.06223300000001,29.955757,0 -90.06205699999998,29.955553,0 -90.06240099999999,29.954903,0 -90.062637,29.953638,0 -90.06268300000001,29.951927,0 -90.06285099999999,29.952078,0 -90.06395000000001,29.952467,0 -90.07124299999998,29.957376,0 -90.06294300000002,29.966726,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Immaculate Conception Parish</name>
+		<styleUrl>#style94</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.06203499999998,29.94795,0 -90.07576799999998,29.950979,0 -90.074844,29.954456,0 -90.07338700000001,29.956112,0 -90.072701,29.955685,0 -90.07124299999998,29.957357,0 -90.06401099999999,29.952522,0 -90.06268300000001,29.951927,0 -90.06203499999998,29.94795,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Augustine Parish</name>
+		<styleUrl>#style15</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.061913,29.972954,0 -90.065704,29.972731,0 -90.07398999999999,29.963381,0 -90.06877099999998,29.960239,0 -90.06294300000002,29.966782,0 -90.06234000000001,29.967377,0 -90.06152299999999,29.96801,0 -90.061913,29.972954,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Mary of the Angels Parish</name>
+		<styleUrl>#style88</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.04521200000001,29.996706,0 -90.04441800000001,29.987675,0 -90.044228,29.985165,0 -90.047684,29.973827,0 -90.02643599999999,29.968939,0 -90.02198000000001,29.981119,0 -90.02240799999998,29.982233,0 -90.02146100000002,29.987474,0 -90.026443,30.004795,0 -90.037041,30.002491,0 -90.039444,30.001413,0 -90.04219100000002,29.999704,0 -90.04521200000001,29.996706,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Corpus Christi Parish</name>
+		<styleUrl>#style52</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.06147800000001,29.96801,0 -90.06051600000001,29.96825,0 -90.05920399999999,29.968325,0 -90.06044799999999,29.982527,0 -90.07092299999999,29.981951,0 -90.06946600000001,29.979385,0 -90.074783,29.973717,0 -90.06860400000001,29.969496,0 -90.06566599999999,29.972822,0 -90.06188999999999,29.972954,0 -90.06147800000001,29.96801,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Peter Claver Parish</name>
+		<styleUrl>#style61</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.078278,29.976021,0 -90.08448,29.968716,0 -90.07476,29.962433,0 -90.06862600000001,29.969477,0 -90.078278,29.976021,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Paul the Apostle Parish</name>
+		<styleUrl>#style83</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-89.99366000000001,30.02981,0 -89.99202699999999,30.02721,0 -89.98902099999999,30.024611,0 -89.98619100000001,29.996889,0 -89.99683400000001,29.973169,0 -90.02198000000001,29.980829,0 -90.020523,29.991159,0 -90.02516199999999,30.00506,0 -90.027092,30.009399,0 -90.02722199999999,30.01041,0 -90.02794599999999,30.0123,0 -90.02858700000002,30.01367,0 -90.029358,30.015829,0 -90.03064000000002,30.02082100000001,0 -90.04142,30.0541,0 -90.01896700000002,30.057667,0 -90.013496,30.04343,0 -90.011894,30.039595,0 -90.005928,30.026871,0 -89.99366000000001,30.02981,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Our Lady Star of the Sea Parish</name>
+		<styleUrl>#style72</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.044388,29.985292,0 -90.04772899999999,29.973944,0 -90.04995700000001,29.974056,0 -90.05716700000001,29.973646,0 -90.05626699999999,29.961973,0 -90.062881,29.966732,0 -90.06257600000001,29.967178,0 -90.06141700000001,29.967958,0 -90.06043200000001,29.968292,0 -90.05914300000001,29.968405,0 -90.06051600000001,29.982494,0 -90.05807500000002,29.982718,0 -90.058159,29.984798,0 -90.045715,29.985655,0 -90.044937,29.985804,0 -90.044167,29.985691,0 -90.044388,29.985292,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Dominic Parish</name>
+		<styleUrl>#style1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.116142,29.999479,0 -90.115318,30.009291,0 -90.115173,30.012409,0 -90.115013,30.013901,0 -90.114937,30.016209,0 -90.114594,30.01829,0 -90.11424300000002,30.019926,0 -90.112793,30.02907,0 -90.112915,30.020039,0 -90.113564,30.02037,0 -90.09674099999999,30.018591,0 -90.098373,30.011379,0 -90.098969,30.00395,0 -90.09905999999999,30.00008,0 -90.10034899999999,29.994949,0 -90.115707,29.995621,0 -90.116219,29.99271999999999,0 -90.11579099999999,29.99614,0 -90.11579099999999,29.99785,0 -90.116142,29.999479,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Ascension of Our Lord Parish</name>
+		<styleUrl>#style89</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.484261,30.068882,0 -90.46122,30.094097,0 -90.43090100000001,30.133593,0 -90.43270099999999,30.164305,0 -90.498878,30.105974,0 -90.50418100000002,30.102016,0 -90.50538599999999,30.100828,0 -90.50598100000001,30.09833,0 -90.501991,30.081398,0 -90.502075,30.079168,0 -90.50061800000002,30.073414,0 -90.492287,30.071854,0 -90.48765599999999,30.070478,0 -90.484261,30.068882,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Joan of Arc Parish</name>
+		<styleUrl>#style71</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.43105300000002,30.133125,0 -90.42693300000001,30.112337,0 -90.407455,30.080183,0 -90.449341,30.033976,0 -90.469337,30.03182,0 -90.47131299999998,30.042372,0 -90.47723400000001,30.050842,0 -90.485733,30.054853,0 -90.489418,30.055967,0 -90.501526,30.0553,0 -90.51314499999999,30.053431,0 -90.523079,30.050657,0 -90.52728299999998,30.049599,0 -90.528831,30.049582,0 -90.531593,30.060446,0 -90.533272,30.061096,0 -90.53378299999999,30.06143,0 -90.53552199999999,30.06988,0 -90.536209,30.070417,0 -90.540108,30.16985499999999,0 -90.51194800000002,30.173416,0 -90.483459,30.17787,0 -90.45565000000001,30.19241,0 -90.453239,30.204281,0 -90.43710299999999,30.219707,0 -90.427834,30.245216,0 -90.428864,30.256784,0 -90.398994,30.281988,0 -90.385262,30.286139,0 -90.374619,30.281691,0 -90.35092900000001,30.296515,0 -90.303558,30.29266,0 -90.320374,30.281691,0 -90.354713,30.240175,0 -90.407234,30.215851,0 -90.43298299999999,30.165106,0 -90.498863,30.106174,0 -90.50495100000002,30.101486,0 -90.50550799999999,30.10078,0 -90.50614899999999,30.098404,0 -90.50205199999999,30.081429,0 -90.50213599999999,30.079201,0 -90.50063299999999,30.073389,0 -90.49232499999999,30.071848,0 -90.48763300000002,30.070456,0 -90.484261,30.068876,0 -90.46109799999999,30.094219,0 -90.43105300000002,30.133125,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Peter Reserve Parish</name>
+		<styleUrl>#style97</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.59408599999999,30.051016,0 -90.594688,30.052502,0 -90.59652699999998,30.059633,0 -90.596069,30.205763,0 -90.592628,30.1933,0 -90.584396,30.181431,0 -90.573753,30.175198,0 -90.55796100000001,30.170448,0 -90.54044300000001,30.16985499999999,0 -90.53636899999999,30.070528,0 -90.53559100000001,30.069885,0 -90.53379099999999,30.06138,0 -90.531639,30.060377,0 -90.52889299999998,30.049643,0 -90.53048700000001,30.049309,0 -90.536064,30.049381,0 -90.561081,30.054098,0 -90.570961,30.054928,0 -90.582291,30.054482,0 -90.59408599999999,30.051016,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Hubert, Garyville Parish</name>
+		<styleUrl>#style69</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.59412400000001,30.05098,0 -90.600182,30.048788,0 -90.60987900000001,30.042065,0 -90.616356,30.035934,0 -90.619186,30.035301,0 -90.621979,30.035452,0 -90.62571699999999,30.037098,0 -90.63893899999999,30.049875,0 -90.64640799999999,30.053368,0 -90.656876,30.05463,0 -90.66828900000002,30.051882,0 -90.671036,30.093924,0 -90.654213,30.097412,0 -90.634315,30.221592,0 -90.61766799999999,30.21818,0 -90.614059,30.214174,0 -90.61080200000001,30.21373000000001,0 -90.60290500000001,30.216845,0 -90.59878500000001,30.215361,0 -90.59551999999999,30.211802,0 -90.59603899999999,30.205868,0 -90.596794,30.059683,0 -90.59412400000001,30.05098,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Charles Borromeo Parish</name>
+		<styleUrl>#style27</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.393539,29.979893,0 -90.364189,30.003086,0 -90.33226800000001,30.028402,0 -90.306961,30.053984,0 -90.30266600000002,30.05443,0 -90.28343999999998,30.049526,0 -90.28093699999998,30.048613,0 -90.27990699999999,30.046904,0 -90.28051000000001,29.998005,0 -90.28420300000001,29.999121,0 -90.28566000000001,29.996668,0 -90.306946,29.972654,0 -90.30265,29.959566,0 -90.309006,29.952429,0 -90.317329,29.942091,0 -90.320251,29.940083,0 -90.325653,29.93852,0 -90.33303800000002,29.936958,0 -90.33964500000002,29.936958,0 -90.35260799999999,29.939487,0 -90.37062799999998,29.944769,0 -90.385994,29.952206,0 -90.38960300000001,29.954807,0 -90.39191400000001,29.958006,0 -90.39320399999998,29.964104,0 -90.39209,29.973398,0 -90.393539,29.979893,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Andrew the Apostle Parish</name>
+		<styleUrl>#style81</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.012749,29.942329,0 -90.01336699999999,29.936453,0 -90.01293899999999,29.93626799999999,0 -90.014465,29.921129,0 -90.00137299999999,29.912834,0 -89.999786,29.913801,0 -89.986397,29.913206,0 -89.98661,29.911942,0 -89.982361,29.912947,0 -89.979187,29.911272,0 -89.97271000000001,29.904503,0 -89.957855,29.902197,0 -89.934769,29.892559,0 -89.921463,29.87205700000001,0 -89.920776,29.87001,0 -89.915886,29.868746,0 -89.912407,29.869749,0 -89.909531,29.871798,0 -89.908119,29.877045,0 -89.907433,29.882105,0 -89.908974,29.889435,0 -89.912621,29.898363,0 -89.921509,29.912537,0 -89.926186,29.916666,0 -89.932579,29.918451,0 -89.936356,29.919159,0 -89.938591,29.91901,0 -89.94322200000001,29.920162,0 -89.95657300000001,29.919828,0 -89.95674099999999,29.919493,0 -89.96313499999999,29.918972,0 -89.966911,29.920088,0 -89.977814,29.923138,0 -89.99279,29.930132,0 -90.012749,29.942329,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Anthony of Padua Parish</name>
+		<styleUrl>#style18</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.369736,29.907038,0 -90.33197,29.917452,0 -90.333511,29.93129,0 -90.345184,29.93129,0 -90.37573999999999,29.939768,0 -90.39427900000001,29.949585,0 -90.399429,29.9597,0 -90.444748,29.93471,0 -90.434967,29.925339,0 -90.410416,29.910757,0 -90.408699,29.908377,0 -90.405441,29.910311,0 -90.39342499999999,29.903986,0 -90.38449900000001,29.914997,0 -90.38054700000001,29.913137,0 -90.38835899999999,29.902721,0 -90.38835899999999,29.901606,0 -90.38535299999999,29.896769,0 -90.39221999999998,29.889515,0 -90.393593,29.886166,0 -90.397285,29.883411,0 -90.39839899999998,29.879169,0 -90.399689,29.875671,0 -90.401321,29.87344,0 -90.403549,29.871578,0 -90.406296,29.872473,0 -90.40766900000001,29.871281,0 -90.405266,29.867857,0 -90.40647100000001,29.865923,0 -90.41059099999998,29.867559,0 -90.41024800000001,29.862349,0 -90.407158,29.858776,0 -90.409042,29.856691,0 -90.40166499999999,29.848503,0 -90.404236,29.843739,0 -90.401146,29.840015,0 -90.40011599999998,29.834953,0 -90.402863,29.829294,0 -90.39548499999999,29.822594,0 -90.368362,29.80755,0 -90.369736,29.907038,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. John the Baptist Parish, Paradis</name>
+		<styleUrl>#style43</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.431702,29.923218,0 -90.48148299999998,29.926342,0 -90.48165900000001,29.849545,0 -90.430161,29.848801,0 -90.429817,29.786993,0 -90.443207,29.781927,0 -90.428955,29.777012,0 -90.42020400000001,29.776861,0 -90.41024800000001,29.771946,0 -90.405441,29.773584,0 -90.39205200000002,29.765984,0 -90.37676999999999,29.763748,0 -90.368019,29.761215,0 -90.36870599999999,29.807848,0 -90.397026,29.823338,0 -90.403549,29.82959200000001,0 -90.40045899999998,29.834805,0 -90.40183299999998,29.84091,0 -90.40475499999999,29.844036,0 -90.402351,29.84909800000001,0 -90.40972900000001,29.857138,0 -90.40766900000001,29.85952,0 -90.411102,29.867708,0 -90.406982,29.866367,0 -90.40595200000001,29.868601,0 -90.40853100000001,29.871429,0 -90.406982,29.872768,0 -90.404411,29.872025,0 -90.40063499999998,29.874407,0 -90.39754499999999,29.883932,0 -90.393936,29.886612,0 -90.39273800000001,29.890331,0 -90.38672599999998,29.895988,0 -90.388786,29.902088,0 -90.38123299999999,29.912504,0 -90.38500999999999,29.914589,0 -90.39342499999999,29.90328,0 -90.40595200000001,29.909826,0 -90.40887499999999,29.90819,0 -90.414192,29.913099,0 -90.431702,29.923218,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Gertrude Parish</name>
+		<styleUrl>#style47</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.48165900000001,29.849545,0 -90.47925599999999,29.845823,0 -90.48028600000001,29.839569,0 -90.47753900000001,29.832571,0 -90.47633399999999,29.818422,0 -90.47496,29.811125,0 -90.46723900000001,29.802338,0 -90.45127099999999,29.789675,0 -90.442001,29.782522,0 -90.429817,29.787291,0 -90.430847,29.848652,0 -90.48165900000001,29.849545,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Holy Rosary Parish</name>
+		<styleUrl>#style7</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.48011,30.030569,0 -90.494362,30.0299,0 -90.54620400000002,30.014299,0 -90.54620400000002,30.00441,0 -90.55238300000002,30.00441,0 -90.55238300000002,29.992821,0 -90.546539,29.99297,0 -90.547234,29.950439,0 -90.546539,29.945379,0 -90.53778800000001,29.93154,0 -90.53572800000001,29.91548,0 -90.54087800000001,29.89941,0 -90.540527,29.89048,0 -90.525429,29.87842,0 -90.51580800000001,29.86517,0 -90.503281,29.86562,0 -90.49693299999998,29.86413,0 -90.492119,29.861,0 -90.485947,29.853411,0 -90.48148299999998,29.85014,0 -90.481308,29.92664,0 -90.432564,29.92366,0 -90.445427,29.934669,0 -90.39771300000001,29.96129,0 -90.400291,29.97616,0 -90.406898,29.98538,0 -90.418098,29.98984,0 -90.44412199999999,29.99222,0 -90.460228,29.99416,0 -90.472229,29.99869,0 -90.47771499999999,30.004974,0 -90.47719599999999,30.017475,0 -90.48011,30.030569,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Maria Goretti Parish</name>
+		<styleUrl>#style82</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.01153600000002,30.038042,0 -90.00707199999999,30.026747,0 -89.993515,30.02972,0 -89.97583,30.037149,0 -89.93926999999999,30.059885,0 -89.940811,30.072365,0 -89.94476299999999,30.076078,0 -89.97171,30.05617,0 -90.01153600000002,30.038042,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. John the Baptist Parish,  Edgard</name>
+		<styleUrl>#style38</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-90.609329,29.892008,0 -90.616196,29.890518,0 -90.624779,29.893196,0 -90.63233199999999,29.896471,0 -90.64228799999999,29.8929,0 -90.65327499999999,29.891411,0 -90.65876799999999,29.88873299999999,0 -90.66048400000001,29.903912,0 -90.661171,29.952412,0 -90.668724,29.953007,0 -90.669411,29.969364,0 -90.66426100000001,29.968771,0 -90.66460399999998,29.977694,0 -90.670784,29.977694,0 -90.671127,30.042801,0 -90.662888,30.046663,0 -90.64949799999999,30.046368,0 -90.63919799999998,30.040422,0 -90.62546500000001,30.029127,0 -90.617569,30.028534,0 -90.60692599999999,30.035072,0 -90.588043,30.047258,0 -90.56744400000001,30.047853,0 -90.54100800000001,30.044584,0 -90.525558,30.043989,0 -90.507706,30.049042,0 -90.490196,30.049637,0 -90.48058300000001,30.038639,0 -90.47989699999999,30.029427,0 -90.49431600000001,30.030615,0 -90.54718800000002,30.013968,0 -90.54718800000002,30.004751,0 -90.55268100000001,30.004456,0 -90.55268100000001,29.992264,0 -90.54684399999999,29.992859,0 -90.54684399999999,29.947353,0 -90.53826100000001,29.930395,0 -90.53620100000001,29.914625,0 -90.54100800000001,29.898851,0 -90.54100800000001,29.889923,0 -90.609329,29.892008,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Ann Parish</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-90.19792651415788,30.00054050491108,0 -90.17738195812373,29.99886927492112,0 -90.18005025018871,30.0155870121002,0 -90.18781089739875,30.01617941465399,0 -90.18905197235195,30.02162298006722,0 -90.18794290946488,30.02440700952105,0 -90.2084046129193,30.02995251475458,0 -90.19792651415788,30.00054050491108,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>St. Clement of Rome Parish</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-90.18763808965227,30.02435878610133,0 -90.18879388664773,30.02133183051215,0 -90.18787154874163,30.01663048593077,0 -90.17962666531727,30.01599343278353,0 -90.17707321744443,29.99902524991065,0 -90.15566676922069,29.99784561645622,0 -90.15497869231299,30.02003785274026,0 -90.18763808965227,30.02435878610133,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

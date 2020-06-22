@@ -43,25 +43,23 @@ export default class ParishBoundariesComponent extends Component {
   constructor(owner, args) {
     super(owner, args)
     this.fetchLocations.perform()
+  }
+
+  geoLocate(){
     if (navigator.geolocation) {
       const gno = new CircularGeofenceRegion({
         name: 'gno',
-        latitude: 30.977609,
-        longitude: -91.823730,
-        radius: 299338 // meters ~ 186 miles from an arbitraty center point in LA
+        latitude: 30.193627,
+        longitude: -90.165482,
+        radius: 61570 // meters ~ 186 miles from an arbitraty center point in LA
       })
       navigator.geolocation.getCurrentPosition((position) => {
-        // const lat = position.coords.latitude
-        // const lon = position.coords.longitude
-        const lat = 30.557176
-        const lng = -90.171661
+        const lat = position.coords.latitude
+        const lng = position.coords.longitude
         if (gno.inside(lat, lng)) {
-          console.log('inside')
           this.startLat = lat
           this.startLng = lng
         }
-      }, (error) => {
-        
       })
     }
   }
@@ -87,6 +85,7 @@ export default class ParishBoundariesComponent extends Component {
   @action
   onLoad(map){
     this.map = map
+    this.geoLocate()
     this.geocoder = new google.maps.Geocoder();
     this.deaneriesKml = new window.google.maps.KmlLayer( { url: ENV.DEANERIES_KML_URL, preserveViewport: true } )
     this.parishBoundariesKml = new window.google.maps.KmlLayer( { url: ENV.PARISH_BOUNDARIES_KML_URL, preserveViewport: true } )
