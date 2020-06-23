@@ -58,6 +58,9 @@ module.exports = function(environment) {
   if (environment === 'production') {
     // here you can enable a production-specific feature
     ENV.host = process.env.HOST;
+    ENV.GOOGLE_MAPS_API_KEY = process.env.GOOGLE_MAPS_API_KEY
+    ENV.PARISH_BOUNDARIES_KML_URL = process.env.PARISH_BOUNDARIES_KML_URL
+    ENV.DEANERIES_KML_URL = process.env.DEANERIES_KML_URL
   }
 
   return ENV;
