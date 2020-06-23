@@ -3,8 +3,8 @@ h1 Find your Parish
 =input class="large" placeholder="Enter an address or place" autocomplete=true change=(action (mut address) value="target.value") enter=(action "geoCodeAddress")
 button.large{action "geoCodeAddress" } Search
 
+=statusMessage
 br
-=errorMessage
 br
 
 =input class="checkbox" type="checkbox" id="parishes" name="parishes" checked=isParishesChecked change=(action "parishesSelected")
@@ -27,31 +27,16 @@ button.link{action "toggle"}
   else
     span Parish Boundaries
 
-=g-map lat=startLat lng=startLng zoom=12 onLoad=(action "onLoad") as |g|
+=g-map lat=startLat lng=startLng zoom=12 onLoad=(action "onLoad") onBoundsChanged=(action "onBoundsChanged") as |g|
 
   if currentPosition
     =g.marker position=currentPosition
 
   if isParishesChecked
-    =each parishes as |location|
-      =g.marker lat=location.lat lng=location.lng icon=location.icon onClick=(action (mut markerTooltipOpen) location) as |m|
-        =m.infoWindow isOpen=(eq markerTooltipOpen.id location.id) as |i|
-          div class="text-center"
-            h2
-              a href="https://nolacatholic.org/search?query=#{location.name}" target="_blank" #{location.name}
+    =map-markers records=parishes g=g markerTooltipOpen=markerTooltipOpen
 
   if isOfficesChecked
-    =each offices as |location|
-      =g.marker lat=location.lat lng=location.lng icon=location.icon onClick=(action (mut markerTooltipOpen) location) as |m|
-        =m.infoWindow isOpen=(eq markerTooltipOpen.id location.id) as |i|
-          div class="text-center"
-            h2
-              a href="https://nolacatholic.org/search?query=#{location.name}" target="_blank" #{location.name}
+    =map-markers records=offices g=g markerTooltipOpen=markerTooltipOpen
 
   if isSchoolsChecked
-    =each schools as |location|
-      =g.marker lat=location.lat lng=location.lng icon=location.icon onClick=(action (mut markerTooltipOpen) location) as |m|
-        =m.infoWindow isOpen=(eq markerTooltipOpen.id location.id) as |i|
-          div class="text-center"
-            h2
-              a href="https://nolacatholic.org/search?query=#{location.name}" target="_blank" #{location.name}
+    =map-markers records=schools g=g markerTooltipOpen=markerTooltipOpen

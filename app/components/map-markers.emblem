@@ -1,0 +1,13 @@
+=each @records as |location|
+  =@g.marker lat=location.lat lng=location.lng icon=location.icon onClick=(action (mut @markerTooltipOpen) location) as |m|
+    =m.infoWindow isOpen=(eq @markerTooltipOpen.id location.id) as |i|
+      div class="text-center"
+        h2
+          a href="https://nolacatholic.org/search?query=#{location.name}" target="_blank" #{location.name}
+        p
+          =location.address
+          if location.address_2
+            br
+            =location.address_2
+          br
+          span #{location.city}, #{location.state} #{location.zip}

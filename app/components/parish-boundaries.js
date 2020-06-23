@@ -1,15 +1,19 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
+import { oneWay } from '@ember/object/computed';
 import { inject as service } from '@ember/service';
 import { task } from 'ember-concurrency';
 import { filterBy } from '@ember/object/computed';
+import { debounce } from '@ember/runloop';
 import { assign } from '@ember/polyfills';
 import ENV from "../config/environment";
 
 export default class ParishBoundariesComponent extends Component {
 
   @service store
+
+  @oneWay('fetchLocations.isRunning') isLoading
 
   map = null
   type = "parish"
@@ -18,9 +22,10 @@ export default class ParishBoundariesComponent extends Component {
   parishBoundariesKml = null
   address = null
   markerTooltipOpen = null
+  currentDistance = null
 
   @tracked currentPosition = null
-  @tracked errorMessage = null
+  @tracked statusMessage = null
 
   @tracked startLat = 29.987571
   @tracked startLng = -90.210292
@@ -42,7 +47,6 @@ export default class ParishBoundariesComponent extends Component {
 
   constructor(owner, args) {
     super(owner, args)
-    this.fetchLocations.perform()
   }
 
   geoLocate(){
@@ -65,8 +69,19 @@ export default class ParishBoundariesComponent extends Component {
   }
 
   @(task(function * () {
-    const locations = yield this.store.query('location', { type: this.type})
-    this.locations = this.locations.concat(locations.toArray())
+    this.statusMessage = 'Loading...'
+    const center = this.map.map.getCenter()
+    const distance = this.currentDistance
+    const records = yield this.store.query('location', { type: this.type, lat: center.lat(), lng: center.lng(), distance: distance })
+    const locations = records.toArray()
+    let newLocations = []
+    locations.forEach(location => {
+      if (!this.locations.includes(location))
+        newLocations.push(location)
+    })
+    this.statusMessage = null
+    if (newLocations.length > 0)
+      this.locations = this.locations.concat(newLocations)
   }).restartable()) fetchLocations;
 
   @action
@@ -135,7 +150,7 @@ export default class ParishBoundariesComponent extends Component {
   geoCodeAddress(){
     if (!this.address)
       return
-    this.errorMessage = null
+    this.statusMessage = 'Searching...'
     const address = `${this.address}, Louisiana`
     const _this = this
     this.geocoder.geocode( { 'address': address}, function(results, status) {
@@ -143,12 +158,31 @@ export default class ParishBoundariesComponent extends Component {
         const position = results[0].geometry.location
         _this.map.map.setCenter(position)
         _this.map.map.setZoom(14)
-        // 1200 ridgelake
         _this.currentPosition = position
       } else {
-        _this.errorMessage = status
+        _this.statusMessage = status
       }
     })
+  }
+
+  calcDistance(){
+    //https://stackoverflow.com/questions/3525670/radius-of-viewable-region-in-google-maps-v3
+    const bounds = this.map.map.getBounds()
+    const center = bounds.getCenter()
+    const ne = bounds.getNorthEast()
+    const r = 3963.0
+    const lat1 = center.lat() / 57.2958
+    const lon1 = center.lng() / 57.2958
+    const lat2 = ne.lat() / 57.2958
+    const lon2 = ne.lng() / 57.2958
+    const dis = r * Math.acos(Math.sin(lat1) * Math.sin(lat2) + Math.cos(lat1) * Math.cos(lat2) * Math.cos(lon2 - lon1))
+    this.currentDistance = dis
+    this.fetchLocations.perform()
+  }
+
+  @action
+  onBoundsChanged(){
+    debounce(this, this.calcDistance, 1000);
   }
 
 }
@@ -162,8 +196,7 @@ class CircularGeofenceRegion {
   inside(lat2, lon2) {
     const lat1 = this.latitude
     const lon1 = this.longitude
-        const R = 63710; // Earth's radius in m
-
+    const R = 63710; // Earth's radius in m
     return Math.acos(Math.sin(lat1)*Math.sin(lat2) +
                      Math.cos(lat1)*Math.cos(lat2) *
                      Math.cos(lon2-lon1)) * R < this.radius;
