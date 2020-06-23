@@ -41,14 +41,6 @@ export default class ParishBoundariesComponent extends Component {
   @filterBy('locations', 'type', 'School') schools
   @filterBy('locations', 'type', 'Office') offices
 
-  get activeLocations(){
-    assign([], this.isParishesChecked ? this.parishes : [], this.isSchoolsChecked ? this.schools : [], this.isOfficesChecked ? this.offices : [])
-  }
-
-  constructor(owner, args) {
-    super(owner, args)
-  }
-
   geoLocate(){
     if (navigator.geolocation) {
       const gno = new CircularGeofenceRegion({
@@ -68,11 +60,25 @@ export default class ParishBoundariesComponent extends Component {
     }
   }
 
+  get typesSelected(){
+    let types = []
+    if (this.isParishesChecked)
+      types.push('parish')
+    if (this.isSchoolsChecked)
+      types.push('school')
+    if (this.isOfficesChecked)
+      types.push('office')
+    return types
+  }
+
   @(task(function * () {
+    const types = this.typesSelected
+    if (types.length == 0)
+      return
     this.statusMessage = 'Loading...'
     const center = this.map.map.getCenter()
     const distance = this.currentDistance
-    const records = yield this.store.query('location', { type: this.type, lat: center.lat(), lng: center.lng(), distance: distance })
+    const records = yield this.store.query('location', { types: types, lat: center.lat(), lng: center.lng(), distance: distance })
     const locations = records.toArray()
     let newLocations = []
     locations.forEach(location => {
@@ -113,10 +119,8 @@ export default class ParishBoundariesComponent extends Component {
       this.isParishesChecked = false
     } else {
       this.isParishesChecked = true
-      if (this.parishes.length == 0){
-        this.type = "parish"
-        this.fetchLocations.perform()
-      }
+      this.type = "parish"
+      this.fetchLocations.perform()
     }
   }
 
@@ -126,10 +130,8 @@ export default class ParishBoundariesComponent extends Component {
       this.isOfficesChecked = false
     } else {
       this.isOfficesChecked = true
-      if (this.offices.length == 0){
-        this.type = "office"
-        this.fetchLocations.perform()
-      }
+      this.type = "office"
+      this.fetchLocations.perform()
     }
   }
 
@@ -139,10 +141,8 @@ export default class ParishBoundariesComponent extends Component {
       this.isSchoolsChecked = false
     } else {
       this.isSchoolsChecked = true
-      if (this.schools.length == 0){
-        this.type = "school"
-        this.fetchLocations.perform()
-      }
+      this.type = "school"
+      this.fetchLocations.perform()
     }
   }
 
