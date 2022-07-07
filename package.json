@@ -56,7 +56,7 @@
     "qunit-dom": "^1.2.0"
   },
   "engines": {
-    "node": "14.3.x"
+    "node": "16.x"
   },
   "ember": {
     "edition": "octane"
