@@ -20,7 +20,7 @@ export default class ParishBoundariesComponent extends Component {
   geocoder = null
   deaneriesKml = null
   parishBoundariesKml = null
-  address = null
+  @tracked address = null
   markerTooltipOpen = null
   currentDistance = null
 
@@ -79,6 +79,7 @@ export default class ParishBoundariesComponent extends Component {
     const center = this.map.map.getCenter()
     const distance = this.currentDistance
     const records = yield this.store.query('location', { types: types, lat: center.lat(), lng: center.lng(), distance: distance })
+
     const locations = records.toArray()
     let newLocations = []
     locations.forEach(location => {
@@ -144,6 +145,11 @@ export default class ParishBoundariesComponent extends Component {
       this.type = "school"
       this.fetchLocations.perform()
     }
+  }
+
+  @action
+  addressChanged(e){
+    this.address = e.target.value
   }
 
   @action

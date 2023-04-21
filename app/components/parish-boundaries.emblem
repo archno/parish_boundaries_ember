@@ -1,19 +1,19 @@
 h1 Find your Parish
 
-=input class="large" placeholder="Enter an address or place" autocomplete=true change=(action (mut address) value="target.value") enter=(action "geoCodeAddress")
+input{{on 'keyup' this.addressChanged}}{{on 'enter' this.geoCodeAddress}} class="large" placeholder="Enter an address or place" autocomplete=true
 button.large{action "geoCodeAddress" } Search
 
-=statusMessage
+=this.statusMessage
 br
 br
 
-=input class="checkbox" type="checkbox" id="parishes" name="parishes" checked=isParishesChecked change=(action "parishesSelected")
+input{{on 'change' this.parishesSelected}} class="checkbox" type="checkbox" id="parishes" name="parishes" checked=this.isParishesChecked
 label for="parishes" Parishes
 
-=input class="checkbox" type="checkbox" id="offices" name="offices" checked=isOfficesChecked change=(action "officesSelected")
+input{{on 'change' this.officesSelected}} class="checkbox" type="checkbox" id="offices" name="offices" checked=this.isOfficesChecked
 label for="offices" Offices
 
-=input class="checkbox" type="checkbox" id="schools" name="schools" checked=isSchoolsChecked change=(action "schoolsSelected")
+input{{on 'change' this.schoolsSelected}} class="checkbox" type="checkbox" id="schools" name="schools" checked=this.isSchoolsChecked
 label for="schools" Schools
 
 br
@@ -22,21 +22,21 @@ br
 button.link{action "toggle"}
   span Toggle
   +
-  if boundaries
+  if this.boundaries
     span Deaneries
   else
     span Parish Boundaries
 
-=g-map lat=startLat lng=startLng zoom=12 onLoad=(action "onLoad") onBoundsChanged=(action "onBoundsChanged") as |g|
+=g-map lat=this.startLat lng=this.startLng zoom=12 onceOnIdle=(action "onLoad") onBoundsChanged=(action "onBoundsChanged") as |g|
 
-  if currentPosition
-    =g.marker position=currentPosition
+  if this.currentPosition
+    =g.marker position=this.currentPosition
 
-  if isParishesChecked
-    =map-markers records=parishes g=g markerTooltipOpen=markerTooltipOpen
+  if this.isParishesChecked
+    =map-markers records=this.parishes g=g markerTooltipOpen=this.markerTooltipOpen
 
-  if isOfficesChecked
-    =map-markers records=offices g=g markerTooltipOpen=markerTooltipOpen
+  if this.isOfficesChecked
+    =map-markers records=this.offices g=g markerTooltipOpen=this.markerTooltipOpen
 
-  if isSchoolsChecked
-    =map-markers records=schools g=g markerTooltipOpen=markerTooltipOpen
+  if this.isSchoolsChecked
+    =map-markers records=this.schools g=g markerTooltipOpen=this.markerTooltipOpen
