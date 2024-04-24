@@ -22,7 +22,7 @@ export default class LocationModel extends Model {
   }
 
   get icon(){
-    return `${config.host}/${this.mapPinLetter}.png`
+    return `${config.host}/m/${this.mapPinLetter}.png`
   }
 
 }
