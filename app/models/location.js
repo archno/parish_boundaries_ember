@@ -1,4 +1,5 @@
 import Model, { attr } from '@ember-data/model';
+import config from '../config/environment';
 
 export default class LocationModel extends Model {
 
@@ -21,7 +22,7 @@ export default class LocationModel extends Model {
   }
 
   get icon(){
-    return `https://chart.googleapis.com/chart?chst=d_map_pin_letter&chld=${this.mapPinLetter}|${this.color}|000000`
+    return `${this.config.host}/images/${this.mapPinLetter}.png`
   }
 
 }
