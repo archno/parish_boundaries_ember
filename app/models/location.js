@@ -22,7 +22,7 @@ export default class LocationModel extends Model {
   }
 
   get icon(){
-    return `${config.host}/m/${this.mapPinLetter}.png`
+    return `${config.PARISH_BOUNDARIES_URL}/m/${this.mapPinLetter}.png`
   }
 
 }

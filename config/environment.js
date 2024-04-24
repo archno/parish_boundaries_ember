@@ -6,6 +6,7 @@ module.exports = function (environment) {
     environment,
     rootURL: '/',
     host: 'http://localhost:3000',
+    PARISH_BOUNDARIES_URL: 'http://localhost:4200',
     locationType: 'auto',
     pageTitle: {
       replace: true,
@@ -57,6 +58,7 @@ module.exports = function (environment) {
   if (environment === 'production') {
     // here you can enable a production-specific feature
     ENV.host = process.env.HOST;
+    ENV.PARISH_BOUNDARIES_URL = process.env.PARISH_BOUNDARIES_URL;
   }
 
   return ENV;
