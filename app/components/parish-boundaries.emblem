@@ -27,7 +27,7 @@ button.link{action "toggle"}
   else
     span Parish Boundaries
 
-=g-map lat=this.startLat lng=this.startLng zoom=12 onceOnIdle=(action "onLoad") onBoundsChanged=(action "onBoundsChanged") as |g|
+=g-map mapId=this.mapId lat=this.startLat lng=this.startLng zoom=12 onceOnIdle=(action "onLoad") onBoundsChanged=(action "onBoundsChanged") as |g|
 
   if this.currentPosition
     =g.marker position=this.currentPosition

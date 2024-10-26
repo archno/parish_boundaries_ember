@@ -7,11 +7,12 @@ module.exports = function (environment) {
     rootURL: '/',
     host: 'http://localhost:3000',
     PARISH_BOUNDARIES_URL: 'http://localhost:4200',
-    locationType: 'auto',
+    locationType: 'history',
     pageTitle: {
       replace: true,
     },
     EmberENV: {
+      EXTEND_PROTOTYPES: false,
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. EMBER_NATIVE_DECORATOR_SUPPORT: true
@@ -24,16 +25,17 @@ module.exports = function (environment) {
     },
   };
 
-  ENV.PARISH_BOUNDARIES_KML_URL = process.env.PARISH_BOUNDARIES_KML_URL
-  ENV.DEANERIES_KML_URL = process.env.DEANERIES_KML_URL
+  ENV.GOOGLE_MAP_ID = process.env.GOOGLE_MAP_ID;
+  ENV.PARISH_BOUNDARIES_KML_URL = process.env.PARISH_BOUNDARIES_KML_URL;
+  ENV.DEANERIES_KML_URL = process.env.DEANERIES_KML_URL;
 
   ENV['ember-google-maps'] = {
     key: process.env.GOOGLE_MAPS_API_KEY, // Using .env files in this example
     language: 'en',
     region: 'US',
     protocol: 'https',
-    libraries: []
-  }
+    libraries: [],
+  };
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;

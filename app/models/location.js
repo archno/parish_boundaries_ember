@@ -2,7 +2,6 @@ import Model, { attr } from '@ember-data/model';
 import config from '../config/environment';
 
 export default class LocationModel extends Model {
-
   @attr type;
   @attr name;
   @attr address;
@@ -17,12 +16,11 @@ export default class LocationModel extends Model {
   @attr('date') createdAt;
   @attr('date') updatedAt;
 
-  get mapPinLetter(){
-    return this.type.charAt(0)
+  get mapPinLetter() {
+    return this.type.charAt(0);
   }
 
-  get icon(){
-    return `${config.PARISH_BOUNDARIES_URL}/m/${this.mapPinLetter}.png`
+  get icon() {
+    return `${config.PARISH_BOUNDARIES_URL}/m/${this.mapPinLetter}.png`;
   }
-
 }
