@@ -1,7 +1,7 @@
 h1 Find your Parish
 
 input{{on 'keyup' this.addressChanged}}{{on 'enter' this.geoCodeAddress}} class="large" placeholder="Enter an address or place" autocomplete=true
-button.large{action "geoCodeAddress" } Search
+button.large{on "click" this.geoCodeAddress } Search
 
 =this.statusMessage
 br
@@ -19,7 +19,7 @@ label for="schools" Schools
 br
 br
 
-button.link{action "toggle"}
+button.link{on "click" this.toggle}
   span Toggle
   +
   if this.boundaries
@@ -27,7 +27,7 @@ button.link{action "toggle"}
   else
     span Parish Boundaries
 
-=g-map mapId=this.mapId lat=this.startLat lng=this.startLng zoom=12 onceOnIdle=(action "onLoad") onBoundsChanged=(action "onBoundsChanged") as |g|
+=g-map mapId=this.mapId lat=this.startLat lng=this.startLng zoom=12 onceOnIdle=this.onLoad onBoundsChanged=this.onBoundsChanged as |g|
 
   if this.currentPosition
     =g.marker position=this.currentPosition

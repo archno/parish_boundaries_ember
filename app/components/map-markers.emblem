@@ -1,5 +1,5 @@
 =each @records as |location|
-  =@g.marker lat=location.lat lng=location.lng icon=location.icon onClick=(action (mut @markerTooltipOpen) location) as |m|
+  =@g.marker lat=location.lat lng=location.lng icon=location.icon onClick=(fn (mut @markerTooltipOpen) location) as |m|
     =m.infoWindow isOpen=(eq @markerTooltipOpen.id location.id) as |i|
       div class="text-center"
         h2
