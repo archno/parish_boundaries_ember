@@ -106,8 +106,13 @@ export default class ParishBoundariesComponent extends Component {
     }
   }
 
+  async loadMarker() {
+    await google.maps.importLibrary('marker');
+  }
+
   @action
   onLoad(map) {
+    this.loadMarker();
     this.map = map;
     this.geoLocate();
     this.geocoder = new google.maps.Geocoder();

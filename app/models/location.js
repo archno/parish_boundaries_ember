@@ -23,4 +23,10 @@ export default class LocationModel extends Model {
   get icon() {
     return `${config.PARISH_BOUNDARIES_URL}/m/${this.mapPinLetter}.png`;
   }
+
+  get iconImg() {
+    const img = document.createElement('img');
+    img.src = this.icon;
+    return img;
+  }
 }

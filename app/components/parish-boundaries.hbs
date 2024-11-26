@@ -1,0 +1,98 @@
+<h1>
+  Find your Parish
+</h1>
+<input
+  placeholder="Enter an address or place"
+  autocomplete
+  class="large"
+  {{on "keyup" this.addressChanged}}
+  {{on "enter" this.geoCodeAddress}}
+/>
+<button class="large" {{on "click" this.geoCodeAddress}}>
+  Search
+</button>{{this.statusMessage}}<br />
+<br />
+<input
+  type="checkbox"
+  id="parishes"
+  name="parishes"
+  checked={{this.isParishesChecked}}
+  class="checkbox"
+  {{on "change" this.parishesSelected}}
+/>
+<label for="parishes">
+  Parishes
+</label>
+<input
+  type="checkbox"
+  id="offices"
+  name="offices"
+  checked={{this.isOfficesChecked}}
+  class="checkbox"
+  {{on "change" this.officesSelected}}
+/>
+<label for="offices">
+  Offices
+</label>
+<input
+  type="checkbox"
+  id="schools"
+  name="schools"
+  checked={{this.isSchoolsChecked}}
+  class="checkbox"
+  {{on "change" this.schoolsSelected}}
+/>
+<label for="schools">
+  Schools
+</label>
+<br />
+<br />
+<button class="link" {{on "click" this.toggle}}>
+  <span>
+    Toggle
+  </span>
+
+  {{#if this.boundaries}}
+    <span>
+      Deaneries
+    </span>
+  {{else}}
+    <span>
+      Parish Boundaries
+    </span>
+  {{/if}}
+</button>
+
+{{#g-map
+  mapId=this.mapId
+  lat=this.startLat
+  lng=this.startLng
+  zoom=12
+  onceOnIdle=this.onLoad
+  onBoundsChanged=this.onBoundsChanged as |g|
+}}
+  {{#if this.currentPosition}}
+    {{g.advancedMarker position=this.currentPosition}}
+  {{/if}}
+  {{#if this.isParishesChecked}}
+    {{map-markers
+      records=this.parishes
+      g=g
+      markerTooltipOpen=this.markerTooltipOpen
+    }}
+  {{/if}}
+  {{#if this.isOfficesChecked}}
+    {{map-markers
+      records=this.offices
+      g=g
+      markerTooltipOpen=this.markerTooltipOpen
+    }}
+  {{/if}}
+  {{#if this.isSchoolsChecked}}
+    {{map-markers
+      records=this.schools
+      g=g
+      markerTooltipOpen=this.markerTooltipOpen
+    }}
+  {{/if}}
+{{/g-map}}
