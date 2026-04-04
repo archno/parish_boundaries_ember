@@ -52,7 +52,6 @@
     "ember-cli-terser": "^4.0.2",
     "ember-concurrency": "^4.0.2",
     "ember-data": "~5.4.1",
-    "ember-fetch": "^8.1.2",
     "ember-google-maps": "^7.2.1",
     "ember-load-initializers": "^3.0.1",
     "ember-modifier": "^4.2.0",
