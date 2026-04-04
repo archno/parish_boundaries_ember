@@ -13,6 +13,11 @@ module.exports = function (defaults) {
         DEPRECATE_STORE_EXTENDS_EMBER_OBJECT: false,
       },
     },
+    babel: {
+      plugins: [
+        require.resolve('ember-concurrency/async-arrow-task-transform'),
+      ],
+    },
     // Add options here
     fingerprint: {
       exclude: ['m/'],

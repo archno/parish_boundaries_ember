@@ -69,13 +69,13 @@ export default class ParishBoundariesComponent extends Component {
     return types;
   }
 
-  @(task(function* () {
+  fetchLocations = task({ restartable: true }, async () => {
     const types = this.typesSelected;
     if (types.length == 0) return;
     this.statusMessage = 'Loading...';
     const center = this.map.map.getCenter();
     const distance = this.currentDistance;
-    const records = yield this.store.query('location', {
+    const records = await this.store.query('location', {
       types: types,
       lat: center.lat(),
       lng: center.lng(),
@@ -90,8 +90,7 @@ export default class ParishBoundariesComponent extends Component {
     this.statusMessage = null;
     if (newLocations.length > 0)
       this.locations = this.locations.concat(newLocations);
-  }).restartable())
-  fetchLocations;
+  });
 
   @action
   toggle() {
