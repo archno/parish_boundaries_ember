@@ -15,8 +15,9 @@ export default class ParishBoundariesComponent extends Component {
   map = null;
   type = 'parish';
   geocoder = null;
-  deaneriesKml = null;
-  parishBoundariesKml = null;
+  deaneriesLayer = null;
+  parishBoundariesLayer = null;
+  infoWindow = null;
   @tracked address = null;
   markerTooltipOpen = null;
   currentDistance = null;
@@ -96,12 +97,12 @@ export default class ParishBoundariesComponent extends Component {
   toggle() {
     if (this.boundaries) {
       this.boundaries = false;
-      this.parishBoundariesKml.setMap(null);
-      this.deaneriesKml.setMap(this.map.map);
+      this.parishBoundariesLayer.setMap(null);
+      this.deaneriesLayer.setMap(this.map.map);
     } else {
       this.boundaries = true;
-      this.deaneriesKml.setMap(null);
-      this.parishBoundariesKml.setMap(this.map.map);
+      this.deaneriesLayer.setMap(null);
+      this.parishBoundariesLayer.setMap(this.map.map);
     }
   }
 
@@ -115,15 +116,42 @@ export default class ParishBoundariesComponent extends Component {
     this.map = map;
     this.geoLocate();
     this.geocoder = new google.maps.Geocoder();
-    this.deaneriesKml = new window.google.maps.KmlLayer({
-      url: ENV.DEANERIES_KML_URL,
-      preserveViewport: true,
+
+    this.infoWindow = new google.maps.InfoWindow();
+
+    this.parishBoundariesLayer = new google.maps.Data({ map: map.map });
+    this.parishBoundariesLayer.loadGeoJson('/parish_boundaries04212026-2.json');
+    this.parishBoundariesLayer.setStyle((feature) => ({
+      fillColor: feature.getProperty('fill'),
+      fillOpacity: feature.getProperty('fill-opacity'),
+      strokeColor: feature.getProperty('stroke'),
+      strokeOpacity: feature.getProperty('stroke-opacity'),
+      strokeWeight: feature.getProperty('stroke-width'),
+    }));
+    this.parishBoundariesLayer.addListener('click', (event) => {
+      const name = event.feature.getProperty('name');
+      this.infoWindow.setContent(`<strong>${name}</strong>`);
+      this.infoWindow.setPosition(event.latLng);
+      this.infoWindow.open(this.map.map);
     });
-    this.parishBoundariesKml = new window.google.maps.KmlLayer({
-      url: ENV.PARISH_BOUNDARIES_KML_URL,
-      preserveViewport: true,
+
+    this.deaneriesLayer = new google.maps.Data({ map: null });
+    this.deaneriesLayer.loadGeoJson('/deaneries.json');
+    this.deaneriesLayer.setStyle((feature) => ({
+      fillColor: feature.getProperty('fill'),
+      fillOpacity: feature.getProperty('fill-opacity'),
+      strokeColor: feature.getProperty('stroke'),
+      strokeOpacity: feature.getProperty('stroke-opacity'),
+      strokeWeight: feature.getProperty('stroke-width'),
+    }));
+    this.deaneriesLayer.addListener('click', (event) => {
+      const name = event.feature.getProperty('name');
+      const description = event.feature.getProperty('description');
+      const descHtml = description?.value ?? '';
+      this.infoWindow.setContent(`<strong>${name}</strong>${descHtml}`);
+      this.infoWindow.setPosition(event.latLng);
+      this.infoWindow.open(this.map.map);
     });
-    this.parishBoundariesKml.setMap(map.map);
   }
 
   @action

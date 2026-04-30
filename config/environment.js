@@ -26,8 +26,6 @@ module.exports = function (environment) {
   };
 
   ENV.GOOGLE_MAP_ID = process.env.GOOGLE_MAP_ID;
-  ENV.PARISH_BOUNDARIES_KML_URL = process.env.PARISH_BOUNDARIES_KML_URL;
-  ENV.DEANERIES_KML_URL = process.env.DEANERIES_KML_URL;
 
   ENV['ember-google-maps'] = {
     key: process.env.GOOGLE_MAPS_API_KEY, // Using .env files in this example
