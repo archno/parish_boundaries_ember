@@ -63,39 +63,4 @@
   {{/if}}
 </button>
 
-{{#g-map
-  mapId=this.mapId
-  lat=this.startLat
-  lng=this.startLng
-  zoom=12
-  onceOnIdle=this.onLoad
-  onBoundsChanged=this.onBoundsChanged as |g|
-}}
-  {{#if this.currentPosition}}
-    {{g.advancedMarker position=this.currentPosition}}
-  {{/if}}
-  {{#if this.isParishesChecked}}
-    {{map-markers
-      records=this.parishes
-      g=g
-      markerTooltipOpen=this.markerTooltipOpen
-      onMarkerClick=this.onMarkerClick
-    }}
-  {{/if}}
-  {{#if this.isOfficesChecked}}
-    {{map-markers
-      records=this.offices
-      g=g
-      markerTooltipOpen=this.markerTooltipOpen
-      onMarkerClick=this.onMarkerClick
-    }}
-  {{/if}}
-  {{#if this.isSchoolsChecked}}
-    {{map-markers
-      records=this.schools
-      g=g
-      markerTooltipOpen=this.markerTooltipOpen
-      onMarkerClick=this.onMarkerClick
-    }}
-  {{/if}}
-{{/g-map}}
+<div class="parish-map" {{this.mapModifier}}></div>

@@ -27,13 +27,6 @@ module.exports = function (environment) {
 
   ENV.GOOGLE_MAP_ID = process.env.GOOGLE_MAP_ID;
 
-  ENV['ember-google-maps'] = {
-    key: process.env.GOOGLE_MAPS_API_KEY, // Using .env files in this example
-    language: 'en',
-    region: 'US',
-    protocol: 'https',
-    libraries: [],
-  };
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
