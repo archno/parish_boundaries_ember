@@ -3,7 +3,7 @@
     lat=location.lat
     lng=location.lng
     content=location.iconImg
-    onClick=(fn (mut @markerTooltipOpen) location) as |m|
+    onClick=(fn @onMarkerClick location) as |m|
   }}
     {{#m.infoWindow isOpen=(eq @markerTooltipOpen.id location.id) as |i|}}
       <div class="text-center">

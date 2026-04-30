@@ -19,7 +19,8 @@ export default class ParishBoundariesComponent extends Component {
   parishBoundariesLayer = null;
   infoWindow = null;
   @tracked address = null;
-  markerTooltipOpen = null;
+  @tracked markerTooltipOpen = null;
+  markerClicked = false;
   currentDistance = null;
 
   @tracked currentPosition = null;
@@ -129,6 +130,7 @@ export default class ParishBoundariesComponent extends Component {
       strokeWeight: feature.getProperty('stroke-width'),
     }));
     this.parishBoundariesLayer.addListener('click', (event) => {
+      if (this.markerClicked) { this.markerClicked = false; return; }
       const name = event.feature.getProperty('name');
       this.infoWindow.setContent(`<strong>${name}</strong>`);
       this.infoWindow.setPosition(event.latLng);
@@ -145,6 +147,7 @@ export default class ParishBoundariesComponent extends Component {
       strokeWeight: feature.getProperty('stroke-width'),
     }));
     this.deaneriesLayer.addListener('click', (event) => {
+      if (this.markerClicked) { this.markerClicked = false; return; }
       const name = event.feature.getProperty('name');
       const description = event.feature.getProperty('description');
       const descHtml = description?.value ?? '';
@@ -152,6 +155,12 @@ export default class ParishBoundariesComponent extends Component {
       this.infoWindow.setPosition(event.latLng);
       this.infoWindow.open(this.map.map);
     });
+  }
+
+  @action
+  onMarkerClick(location) {
+    this.markerClicked = true;
+    this.markerTooltipOpen = location;
   }
 
   @action
