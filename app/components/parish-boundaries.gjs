@@ -6,8 +6,50 @@ import { task } from 'ember-concurrency';
 import { debounce } from '@ember/runloop';
 import { modifier } from 'ember-modifier';
 import ENV from '../config/environment';
+import { on } from "@ember/modifier";
 
 export default class ParishBoundariesComponent extends Component {
+
+<template><h1>
+  Find your Parish
+</h1>
+<input placeholder="Enter an address or place" autocomplete class="large" {{on "keyup" this.addressChanged}} {{on "enter" this.geoCodeAddress}} />
+<button class="large" {{on "click" this.geoCodeAddress}}>
+  Search
+</button>{{this.statusMessage}}<br />
+<br />
+<input type="checkbox" id="parishes" name="parishes" checked={{this.isParishesChecked}} class="checkbox" {{on "change" this.parishesSelected}} />
+<label for="parishes">
+  Parishes
+</label>
+<input type="checkbox" id="offices" name="offices" checked={{this.isOfficesChecked}} class="checkbox" {{on "change" this.officesSelected}} />
+<label for="offices">
+  Offices
+</label>
+<input type="checkbox" id="schools" name="schools" checked={{this.isSchoolsChecked}} class="checkbox" {{on "change" this.schoolsSelected}} />
+<label for="schools">
+  Schools
+</label>
+<br />
+<br />
+<button class="link" {{on "click" this.toggle}}>
+  <span>
+    Toggle
+  </span>
+
+  {{#if this.boundaries}}
+    <span>
+      Deaneries
+    </span>
+  {{else}}
+    <span>
+      Parish Boundaries
+    </span>
+  {{/if}}
+</button>
+
+<div class="parish-map" {{this.mapModifier}}></div>
+</template>
   @service store;
   @service googleMaps;
 

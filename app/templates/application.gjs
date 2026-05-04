@@ -1,4 +1,5 @@
-<div id="background" class="hasFooterText">
+
+<template><div id="background" class="hasFooterText">
   <div id="headerBackground">
     <div id="navBackground"></div>
     <header id="header">
@@ -6,11 +7,7 @@
         <div class="moduleInner">
           <div id="siteLogoBody">
             <a href="https://nolacatholic.org/">
-              <img
-                alt="Archdiocese of New Orleans"
-                src="images/logo-1.jpg"
-                class="sitelogo"
-              />
+              <img alt="Archdiocese of New Orleans" src="images/logo-1.jpg" class="sitelogo" />
             </a>
           </div>
         </div>
@@ -37,11 +34,11 @@
         <div class="moduleInner">
           <div id="footerTextBody" class="footerTextBody1 footerTextBody">
             <div class="center">
-              <img alt="" src="images/footer_logo.jpg" />
+              <img alt src="images/footer_logo.jpg" />
             </div>
           </div>
         </div>
       </div>
     </footer>
   </div>
-</div>
+</div></template>
