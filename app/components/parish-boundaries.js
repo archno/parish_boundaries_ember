@@ -9,6 +9,7 @@ import ENV from '../config/environment';
 
 export default class ParishBoundariesComponent extends Component {
   @service store;
+  @service googleMaps;
 
   map = null;
   geocoder = null;
@@ -32,11 +33,7 @@ export default class ParishBoundariesComponent extends Component {
   });
 
   async setupMap(element) {
-    await Promise.all([
-      google.maps.importLibrary('maps'),
-      google.maps.importLibrary('marker'),
-      google.maps.importLibrary('geocoding'),
-    ]);
+    await this.googleMaps.load();
 
     this.map = new google.maps.Map(element, {
       mapId: ENV.GOOGLE_MAP_ID,
