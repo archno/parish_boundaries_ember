@@ -1,7 +1,7 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
-import { inject as service } from '@ember/service';
+import { service } from '@ember/service';
 import { task } from 'ember-concurrency';
 import { debounce } from '@ember/runloop';
 import { modifier } from 'ember-modifier';
@@ -63,6 +63,7 @@ export default class ParishBoundariesComponent extends Component {
       strokeWeight: feature.getProperty('stroke-width'),
     }));
     this.parishBoundariesLayer.addListener('click', (event) => {
+      if (this._markerClicked) return;
       const name = event.feature.getProperty('name');
       this.infoWindow.setContent(`<strong>${name}</strong>`);
       this.infoWindow.setPosition(event.latLng);
@@ -79,6 +80,7 @@ export default class ParishBoundariesComponent extends Component {
       strokeWeight: feature.getProperty('stroke-width'),
     }));
     this.deaneriesLayer.addListener('click', (event) => {
+      if (this._markerClicked) return;
       const name = event.feature.getProperty('name');
       const description = event.feature.getProperty('description');
       const descHtml = description?.value ?? '';
@@ -95,8 +97,8 @@ export default class ParishBoundariesComponent extends Component {
       content: location.iconImg,
     });
 
-    marker.addListener('click', ({ domEvent }) => {
-      domEvent.stopPropagation();
+    marker.addListener('gmp-click', () => {
+      this._markerClicked = true;
       this.infoWindow.setContent(`
         <div class="text-center">
           <h2><a href="https://nolacatholic.org/search?query=${encodeURIComponent(location.name)}" target="_blank">${location.name}</a></h2>
@@ -105,6 +107,7 @@ export default class ParishBoundariesComponent extends Component {
         </div>
       `);
       this.infoWindow.open(this.map, marker);
+      setTimeout(() => { this._markerClicked = false; }, 0);
     });
 
     this.markers.set(location.id, marker);
