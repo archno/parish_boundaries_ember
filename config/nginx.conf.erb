@@ -41,16 +41,31 @@ http {
     keepalive_timeout 5;
     client_max_body_size <%= ENV['NGINX_CLIENT_MAX_BODY_SIZE'] || 1 %>M;
 
-    location / {
+    root /app/dist; # path to your app
 
-      if ($http_x_forwarded_proto != "https") {
-        return 301 https://$host$request_uri;
-      }
-
-      alias /app/dist/;
-      try_files $uri /index.html;
+    # Force HTTPS at the Heroku edge.
+    if ($http_x_forwarded_proto != "https") {
+      return 301 https://$host$request_uri;
     }
 
-    root /app/dist; # path to your app
+    # Fingerprinted build assets are content-addressed and safe to cache forever.
+    # IMPORTANT: a request for a chunk that no longer exists MUST return 404 —
+    # never fall back to index.html, because returning HTML for a .js URL causes
+    # a Subresource Integrity digest mismatch and silently blanks the page.
+    location /assets/ {
+      try_files $uri =404;
+      add_header Cache-Control "public, max-age=31536000, immutable";
+    }
+
+    # The SPA shell must always be revalidated so a client never runs a stale
+    # index.html whose chunk hashes were removed by a newer deploy.
+    location = /index.html {
+      add_header Cache-Control "no-cache";
+    }
+
+    # All other paths fall back to the SPA shell (client-side routing).
+    location / {
+      try_files $uri /index.html;
+    }
   }
 }
